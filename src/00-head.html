@@ -143,7 +143,9 @@ h3.sub{font-family:var(--display);font-weight:800;font-size:24px;letter-spacing:
 .lede{font-size:18px;color:var(--muted);max-width:66ch;margin:0}
 .mhead{display:flex;flex-direction:column;gap:10px}
 p{margin:0}
-.prose{max-width:70ch;display:flex;flex-direction:column;gap:10px}
+.prose{max-width:70ch}
+div.prose{display:flex;flex-direction:column;gap:10px}
+p.prose{margin:0 0 14px}
 .tag{display:inline-flex;align-items:center;gap:6px;font:600 11px/1 var(--mono);letter-spacing:.05em;text-transform:uppercase;padding:5px 8px;border-radius:6px;background:var(--panel-2);color:var(--muted);white-space:nowrap}
 .tag.sage{background:var(--sage-soft);color:var(--sage)} .tag.rose{background:var(--rose-soft);color:var(--rose)} .tag.sky{background:var(--sky-soft);color:var(--sky)}
 .tag.good{background:var(--good-soft);color:var(--good)} .tag.warn{background:var(--warn-soft);color:var(--warn)} .tag.bad{background:var(--bad-soft);color:var(--bad)}
@@ -211,7 +213,7 @@ tr.hl td,tr.hl th{background:var(--rose-soft)}
 .c-dz .stepper button[aria-pressed="true"]{border-color:var(--rose);background:var(--rose-soft)}
 .c-tx .stepper button[aria-pressed="true"]{border-color:var(--sky);background:var(--sky-soft)}
 .stepper button[aria-pressed="true"] b{color:var(--ink)}
-.ev{font:600 10px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;padding:4px 7px;border-radius:5px;white-space:nowrap}
+.ev{display:inline-block;align-self:flex-start;justify-self:start;font:600 10px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;padding:4px 7px;border-radius:5px;white-space:nowrap}
 .ev.est{background:var(--good-soft);color:var(--good)} .ev.early{background:var(--warn-soft);color:var(--warn)} .ev.hyp{background:var(--sky-soft);color:var(--sky)}
 .legend{display:flex;flex-wrap:wrap;gap:6px 14px;font:500 12px var(--mono);color:var(--muted)}
 .legend i{display:inline-block;width:14px;height:4px;border-radius:2px;vertical-align:middle;margin-right:5px}
@@ -223,7 +225,7 @@ tr.hl td,tr.hl th{background:var(--rose-soft)}
 .t-xs{font:500 9.5px var(--mono);fill:var(--muted)}
 .t-mid{text-anchor:middle}
 .t-end{text-anchor:end}
-.axis{stroke:var(--line);stroke-width:1}
+.axis{stroke:var(--line);stroke-width:1;fill:none}
 .grid{stroke:var(--line);stroke-width:1;stroke-dasharray:2 4}
 .arrow{stroke:var(--muted);stroke-width:1.6;fill:none}
 .clk{cursor:pointer}

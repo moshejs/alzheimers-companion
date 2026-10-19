@@ -44,9 +44,9 @@ def cite(m):
     label = ",".join(str(n) for n in sorted(set(nums)))
     return f'<sup class="c" data-ref="{",".join(keys)}" title="Source {label}">{label}</sup>'
 
-# each key must start with a letter, so nested numeric arrays such as [[250,288]]
+# each key must contain a letter, so nested numeric arrays such as [[250,288]]
 # in module JS are never mistaken for citations
-CITE_RE = r"\[\[(\s*[A-Za-z][A-Za-z0-9_\-]*(?:\s*,\s*[A-Za-z][A-Za-z0-9_\-]*)*\s*)\]\]"
+CITE_RE = r"\[\[(\s*(?=[A-Za-z0-9_\-]*[A-Za-z])[A-Za-z0-9][A-Za-z0-9_\-]*(?:\s*,\s*(?=[A-Za-z0-9_\-]*[A-Za-z])[A-Za-z0-9][A-Za-z0-9_\-]*)*\s*)\]\]"
 html = re.sub(CITE_RE, cite, html)
 if missing:
     print("UNKNOWN citation keys:", ", ".join(sorted(missing)), file=sys.stderr)
