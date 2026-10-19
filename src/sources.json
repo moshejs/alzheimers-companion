@@ -20,12 +20,13 @@
  },
  {
   "key": "AA2026Facts",
-  "text": "Alzheimer's Association. 2026 Alzheimer's disease facts and figures. Alzheimers Dement. 2026;22(4). PMCID PMC13098189. doi:10.1002/alz.71345. (PDF read; used only for updated caregiver numbers and GUIDE count.)",
+  "text": "Alzheimer's Association. 2026 Alzheimer's disease facts and figures. Alzheimers Dement. 2026;22(4):e71345. PMCID PMC13098189. doi:10.1002/alz.71345. (PDF read; used only for updated caregiver numbers and GUIDE count.)",
   "link": "https://doi.org/10.1002/alz.71345",
   "areas": [
    "G"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Article number added from Crossref."
  },
  {
   "key": "Abbey2004",
@@ -180,16 +181,18 @@
   "areas": [
    "C"
   ],
-  "unverified": true
+  "unverified": false,
+  "note": "Pages read 19 Oct 2026: 383 PSEN1, 120 APP and 92 PSEN2 entries listed, matching the app. Pathogenic tallies were not checked and are not used."
  },
  {
   "key": "AlzforumNews2024",
-  "text": "Alzforum. Do two APOE4 alleles always mean Alzheimer's? (news report and expert commentary on Fortea et al. 2024). 2024. https://www.alzforum.org/node/3084976. (secondary source for Fortea full-text numbers and critiques)",
-  "link": "https://www.alzforum.org/node/3084976",
+  "text": "Alzforum. Do two APOE4 alleles always mean Alzheimer's? (news report and expert commentary on Fortea et al. 2024). 10 May 2024. https://www.alzforum.org/news/research-news/do-two-apoe4-alleles-always-mean-alzheimers (secondary source for Fortea full-text numbers and critiques)",
+  "link": "https://www.alzforum.org/news/research-news/do-two-apoe4-alleles-always-mean-alzheimers",
   "areas": [
    "C"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Page read; date and permanent address added."
  },
  {
   "key": "AlzSocThisIsMe",
@@ -239,11 +242,12 @@
  {
   "key": "AriceptLabel",
   "text": "Eisai Inc. ARICEPT (donepezil) US prescribing information, section 2.3. Label effective 2021-12-30 (openFDA).",
-  "link": "",
+  "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975",
   "areas": [
    "H"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Labeller and effective date confirmed in openFDA. Link goes to DailyMed, which shows the current version of this label."
  },
  {
   "key": "Aron2025",
@@ -311,12 +315,13 @@
  },
  {
   "key": "Banerjee2009",
-  "text": "Banerjee S. The use of antipsychotic medication for people with dementia: time for action. Report for the Minister of State for Care Services, Department of Health, London. 2009. (primary not accessed; figures from secondary coverage)",
-  "link": "",
+  "text": "Banerjee S. The use of antipsychotic medication for people with dementia: time for action. A report for the Minister of State for Care Services. London: Department of Health; October 2009.",
+  "link": "https://dementiapartnerships.com/wp-content/uploads/sites/2/time-for-action.pdf",
   "areas": [
    "H"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Report located (copy hosted by Dementia Partnerships; the Department of Health original is in the UK Government Web Archive, which blocks automated access). Title and date confirmed; the figures the app quotes are from secondary coverage and were not checked against it."
  },
  {
   "key": "BantryWhite2015",
@@ -387,12 +392,13 @@
  },
  {
   "key": "Bateman2025",
-  "text": "Bateman RJ, Li Y, McDade EM, et al. Safety and efficacy of long-term gantenerumab treatment in dominantly inherited Alzheimer's disease: an open-label extension of the phase 2/3 DIAN-TU trial. Lancet Neurol. 2025;24(4):316-330. PMID 40120616. doi:10.1016/S1474-4422(25)00024-9.",
+  "text": "Bateman RJ, Li Y, McDade EM, et al. Safety and efficacy of long-term gantenerumab treatment in dominantly inherited Alzheimer's disease: an open-label extension of the phase 2/3 multicentre, randomised, double-blind, placebo-controlled platform DIAN-TU trial. Lancet Neurol. 2025;24(4):316-330. PMID 40120616. doi:10.1016/S1474-4422(25)00024-9.",
   "link": "https://doi.org/10.1016/s1474-4422(25)00024-9",
   "areas": [
    "I"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Title was shortened; now the full published title."
  },
  {
   "key": "Belder2024",
@@ -468,12 +474,13 @@
  },
  {
   "key": "Biogen2024",
-  "text": "Biogen. Press release, 31 January 2024: discontinuation of ADUHELM development and commercialisation and termination of ENVISION. (investor page returned HTTP 403; content read via NeurologyLive coverage)",
-  "link": "",
+  "text": "Biogen. Biogen to realign resources for Alzheimer's disease franchise. Press release, 31 January 2024.",
+  "link": "https://investors.biogen.com/node/27501",
   "areas": [
    "A"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Release located and read."
  },
  {
   "key": "Biogen2026",
@@ -532,12 +539,13 @@
  {
   "key": "Borson2000",
   "text": "Borson S, Scanlan J, Brush M, Vitaliano P, Dokmak A. The Mini-Cog: a cognitive \"vital signs\" measure for dementia screening in multi-lingual elderly. Int J Geriatr Psychiatry. 2000;15(11):1021-1027. PMID 11113982. doi:10.1002/1099-1166(200011)15:11<1021::aid-gps234>3.0.co;2-6. (abstract)",
-  "link": "https://doi.org/10.1002/1099-1166(200011)15:11<1021::aid-gps234>3.0.co",
+  "link": "https://doi.org/10.1002/1099-1166(200011)15:11%3C1021::AID-GPS234%3E3.0.CO;2-6",
   "areas": [
    "D",
    "H"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Link was cut off at the semicolon inside this DOI and did not resolve; fixed."
  },
  {
   "key": "Boustani2008",
@@ -732,11 +740,12 @@
  {
   "key": "CMS2015",
   "text": "Centers for Medicare & Medicaid Services. S&C 15-26-NH: Nursing Home Compare \"3.0\" – Five Star Quality Rating System – Expanded and Strengthened. 13 February 2015.",
-  "link": "",
+  "link": "https://www.cms.gov/Medicare/Provider-Enrollment-and-Certification/SurveyCertificationGenInfo/Downloads/Survey-and-Cert-Letter-15-26.pdf",
   "areas": [
    "H"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Memo located; reference and date confirmed."
  },
  {
   "key": "CMS2022NCD",
@@ -878,47 +887,52 @@
  {
   "key": "CTgovAHEAD",
   "text": "ClinicalTrials.gov. NCT04468659, AHEAD 3-45 Study (lecanemab). Registry record accessed October 2026. (status, enrolment, outcomes, estimated dates)",
-  "link": "",
+  "link": "https://clinicaltrials.gov/study/NCT04468659",
   "areas": [
    "I"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Registry records and statuses rechecked against the ClinicalTrials.gov v2 API on 19 Oct 2026."
  },
  {
   "key": "CTgovGV971",
   "text": "ClinicalTrials.gov. NCT04520412, A Study of Sodium Oligomannate (GV-971) in Participants With Mild to Moderate Alzheimer's Disease (GREEN MEMORY). Registry record accessed October 2026 (status: suspended).",
-  "link": "",
+  "link": "https://clinicaltrials.gov/study/NCT04520412",
   "areas": [
    "I"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Registry records and statuses rechecked against the ClinicalTrials.gov v2 API on 19 Oct 2026."
  },
  {
   "key": "CTgovTauNexGen",
   "text": "ClinicalTrials.gov. NCT05269394 (DIAN-TU Tau NexGen, E2814 + lecanemab) and NCT06602258 (E2814 with lecanemab in early AD, study 202). Registry records accessed October 2026.",
-  "link": "",
+  "link": "https://clinicaltrials.gov/study/NCT05269394",
   "areas": [
    "I"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Both registry records rechecked against the ClinicalTrials.gov v2 API on 19 Oct 2026 (both active, not recruiting). Link goes to the first."
  },
  {
   "key": "CTgovTB3",
   "text": "ClinicalTrials.gov. NCT05026866, TRAILBLAZER-ALZ 3 (donanemab, preclinical AD). Registry record accessed October 2026.",
-  "link": "",
+  "link": "https://clinicaltrials.gov/study/NCT05026866",
   "areas": [
    "I"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Registry records and statuses rechecked against the ClinicalTrials.gov v2 API on 19 Oct 2026."
  },
  {
   "key": "CTgovTRONTIER",
   "text": "ClinicalTrials.gov. NCT07169578 and NCT07170150 (TRONTIER 1 and 2, trontinemab, early symptomatic AD); NCT07717411 (trontinemab in cognitively unimpaired people at risk); NCT04639050 (Brainshuttle AD). Registry records accessed October 2026.",
-  "link": "",
+  "link": "https://clinicaltrials.gov/study/NCT07169578",
   "areas": [
    "I"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "All four registry records rechecked against the ClinicalTrials.gov v2 API on 19 Oct 2026. Link goes to TRONTIER 1."
  },
  {
   "key": "Cummings1994",
@@ -1078,11 +1092,12 @@
  {
   "key": "DrugsFDA2026",
   "text": "U.S. FDA. Drugs@FDA database (openFDA drugsfda endpoint), original approval dates for NDA020690, NDA020823, NDA021169, NDA021487, NDA022083, NDA022525, NDA022568, NDA206439; Aricept efficacy supplement 13 Oct 2006. Accessed Oct 2026.",
-  "link": "",
+  "link": "https://www.accessdata.fda.gov/scripts/cder/daf/",
   "areas": [
    "E"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Every application number and approval date rechecked against the openFDA drugsfda endpoint on 19 Oct 2026."
  },
  {
   "key": "Dubinsky2000",
@@ -1186,12 +1201,13 @@
  },
  {
   "key": "Eisai2025",
-  "text": "Eisai Co., Ltd. Eisai presents new data on anti-tau antibody etalanetug (E2814) at CTAD 2025. Press release, 1 December 2025 (via ACN Newswire). (company press release)",
-  "link": "",
+  "text": "Eisai Co., Ltd. Eisai presents new data on anti-tau antibody etalanetug (E2814) at CTAD 2025. Press release, 2 December 2025 (via JCN Newswire). (company press release)",
+  "link": "https://www.acnnewswire.com/press-release/english/104046/eisai-presents-new-data-on-anti-tau-antibody-etalanetug-(e2814)-at-ctad-2025",
   "areas": [
    "I"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Release located; it is dated 2 December 2025, not 1 December."
  },
  {
   "key": "Eisai2025Iqlik",
@@ -1204,12 +1220,13 @@
  },
  {
   "key": "Eisai2025IVmaint",
-  "text": "Eisai/Biogen. FDA approves IV maintenance dosing of Leqembi (26 Jan 2025). (date and content from press coverage via search; corroborated by label)",
-  "link": "",
+  "text": "Eisai/Biogen. FDA approves LEQEMBI (lecanemab-irmb) IV maintenance dosing for the treatment of early Alzheimer's disease. Press release, 26 January 2025.",
+  "link": "https://investors.biogen.com/node/28756",
   "areas": [
    "F"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Release located (Biogen, 26 Jan 2025; Eisai's copy is dated 27 Jan). Drugs@FDA lists the supplement approval as 24 Jan 2025."
  },
  {
   "key": "Eisai2026IqlikInit",
@@ -1231,12 +1248,13 @@
  },
  {
   "key": "Ely2001",
-  "text": "Ely EW, Inouye SK, Bernard GR, et al. Delirium in mechanically ventilated patients: validity and reliability of the CAM-ICU. JAMA. 2001;286(21):2703-2710. PMID 11730446. doi:10.1001/jama.286.21.2703.",
+  "text": "Ely EW, Inouye SK, Bernard GR, et al. Delirium in mechanically ventilated patients: validity and reliability of the confusion assessment method for the intensive care unit (CAM-ICU). JAMA. 2001;286(21):2703-2710. PMID 11730446. doi:10.1001/jama.286.21.2703.",
   "link": "https://doi.org/10.1001/jama.286.21.2703",
   "areas": [
    "H"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Title was shortened; now the full published title."
  },
  {
   "key": "EMA2024LeqembiReexam",
@@ -1258,12 +1276,13 @@
  },
  {
   "key": "EMA2025Leqembi",
-  "text": "European Medicines Agency. Questions and answers: approval of the marketing authorisation for Leqembi (lecanemab). EMA/63941/2025. February 2025.",
-  "link": "",
+  "text": "European Medicines Agency. Questions and answers: Approval of the marketing authorisation for Leqembi (lecanemab). Re-examination leads to recommendation to approve. EMA/63941/2025. Dated 14 November 2024, updated February 2025.",
+  "link": "https://www.ema.europa.eu/en/documents/medicine-qa/questions-answers-approval-marketing-authorisation-leqembi-lecanemab_en.pdf",
   "areas": [
    "C"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Document located and read; it is dated 14 November 2024 with a February 2025 update, not February 2025 alone."
  },
  {
   "key": "EMA2025LeqembiF",
@@ -1313,11 +1332,12 @@
  {
   "key": "ExelonLabel",
   "text": "Novartis. EXELON PATCH (rivastigmine transdermal) US prescribing information, sections 2.4, 5.1, 10, 17. Label effective 2024-05-08 (openFDA).",
-  "link": "",
+  "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=07c12e14-bbd5-4ec8-84e4-fbe7b5ba10e0",
   "areas": [
    "H"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Labeller and effective date confirmed in openFDA. Link goes to DailyMed, which shows the current version of this label."
  },
  {
   "key": "Eyting2025",
@@ -1331,30 +1351,33 @@
  },
  {
   "key": "Farrer1997",
-  "text": "Farrer LA, Cupples LA, Haines JL, et al. Effects of age, sex, and ethnicity on the association between apolipoprotein E genotype and Alzheimer disease: a meta-analysis. JAMA. 1997;278(16):1349-1356. PMID 9343467. doi:10.1001/jama.1997.03550160069041.",
+  "text": "Farrer LA, Cupples LA, Haines JL, et al. Effects of age, sex, and ethnicity on the association between apolipoprotein E genotype and Alzheimer disease. A meta-analysis. APOE and Alzheimer Disease Meta Analysis Consortium. JAMA. 1997;278(16):1349-1356. PMID 9343467. doi:10.1001/jama.1997.03550160069041.",
   "link": "https://doi.org/10.1001/jama.1997.03550160069041",
   "areas": [
    "C"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Title was shortened; now the full published title."
  },
  {
   "key": "FDA2021AduMemo",
-  "text": "US FDA. Aducanumab accelerated approval decision memorandum (Dunn B), 7 June 2021. https://www.fda.gov/media/149903/download (content read via search excerpts and trade press; PDF not opened directly)",
+  "text": "Dunn B. Memorandum to Nathan Fountain, Chair, Peripheral and Central Nervous System Drugs Advisory Committee: Accelerated approval of aducanumab for Alzheimer's disease. US FDA; 7 June 2021. https://www.fda.gov/media/149903/download (PDF read)",
   "link": "https://www.fda.gov/media/149903/download",
   "areas": [
    "A"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "This is Dunn's two-page letter to the advisory committee chair explaining the decision, not FDA's full decision memorandum. It does state the November 2020 vote and the accelerated approval on amyloid reduction."
  },
  {
   "key": "FDA2022CSF",
-  "text": "US FDA. FDA permits marketing of first in vitro diagnostic test for early detection of amyloid plaques associated with Alzheimer's disease (Lumipulse G beta-Amyloid Ratio 1-42/1-40). 4 May 2022. (FDA page not reachable; figures from secondary report: HCPLive, 4 May 2022, https://hcplive.com/view/fda-permits-marketing-of-new-diagnostic-test-for-alzheimers-disease)",
-  "link": "https://hcplive.com/view/fda-permits-marketing-of-new-diagnostic-test-for-alzheimers-disease",
+  "text": "US FDA. FDA permits marketing for new test to improve diagnosis of Alzheimer's disease (Lumipulse G β-Amyloid Ratio (1-42/1-40), CSF). Press announcement, 4 May 2022. Archived copy of fda.gov page.",
+  "link": "https://web.archive.org/web/20240118205535/https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-new-test-improve-diagnosis-alzheimers-disease",
   "areas": [
    "D"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Entry was attributed to FDA but linked to HCPLive coverage, with a paraphrased title. FDA has taken the release down, so the link is now the Internet Archive copy of the FDA page."
  },
  {
   "key": "FDA2023Leqembi",
@@ -1422,110 +1445,122 @@
  {
   "key": "FDA_DrugsFDA",
   "text": "US FDA, Drugs@FDA via openFDA API (queried 18 Oct 2026). Original approval dates: Cognex NDA020070 (1993-09-09); Aricept NDA020690 (1996-11-25); Namenda NDA021487 (2003-10-16); Aduhelm BLA761178 (2021-06-07); Leqembi BLA761269 (2023-01-06; efficacy supplement 2023-07-06); Kisunla BLA761248 (2024-07-02).",
-  "link": "",
+  "link": "https://www.accessdata.fda.gov/scripts/cder/daf/",
   "areas": [
    "A"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Every application number and approval date rechecked against the openFDA drugsfda endpoint on 19 Oct 2026."
  },
  {
   "key": "FDAAricept2021",
   "text": "Eisai Inc. ARICEPT (donepezil hydrochloride) prescribing information. Label effective 30 Dec 2021 (set id 98e451e1-e4d7-4439-a675-c5457ba20975), via openFDA.",
-  "link": "",
+  "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975",
   "areas": [
    "E"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Labeller and effective date confirmed in openFDA. Link goes to DailyMed, which shows the current version of this label."
  },
  {
   "key": "FDABelsomra2025",
   "text": "Merck Sharp & Dohme. BELSOMRA (suvorexant) prescribing information. Label effective 10 Mar 2025 (set id e5b72731-1acb-45b7-9c13-290ad12d3951), via openFDA.",
-  "link": "",
+  "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e5b72731-1acb-45b7-9c13-290ad12d3951",
   "areas": [
    "E"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Labeller and effective date confirmed in openFDA. Link goes to DailyMed, which shows the current version of this label."
  },
  {
   "key": "FDACelexa2023",
   "text": "Allergan. CELEXA (citalopram) prescribing information. Label effective 9 Oct 2023 (set id 4259d9b1-de34-43a4-85a8-41dd214e9177), via openFDA.",
-  "link": "",
+  "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177",
   "areas": [
    "E"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Labeller and effective date confirmed in openFDA. Link goes to DailyMed, which shows the current version of this label."
  },
  {
   "key": "FDAExelonPatch2024",
   "text": "Novartis. EXELON PATCH (rivastigmine transdermal system) prescribing information. Label effective 8 May 2024 (set id 07c12e14-bbd5-4ec8-84e4-fbe7b5ba10e0), via openFDA.",
-  "link": "",
+  "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=07c12e14-bbd5-4ec8-84e4-fbe7b5ba10e0",
   "areas": [
    "E"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Labeller and effective date confirmed in openFDA. Link goes to DailyMed, which shows the current version of this label."
  },
  {
   "key": "FDAGalantamineER2025",
   "text": "Galantamine hydrobromide extended-release capsules prescribing information (Sun Pharmaceutical labeling, repackager Bryant Ranch). Label effective 12 Sep 2025 (set id 0f74a146-f6ee-4910-82a3-177153526dd0), via openFDA. (Generic of Razadyne ER)",
-  "link": "",
+  "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0f74a146-f6ee-4910-82a3-177153526dd0",
   "areas": [
    "E"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Effective date and set ID confirmed in openFDA (ANDA090178, held by Sun Pharma; Bryant Ranch is the repackager). Link goes to DailyMed, which shows the current version."
  },
  {
   "key": "FDAMemantineER2026",
   "text": "Memantine hydrochloride extended-release capsules prescribing information (Aurobindo labeling, repackager Vangard). Label effective 1 Sep 2026 (set id 007d4cb9-3fa9-40f3-b5ca-4083eccd6038), via openFDA. (Generic of Namenda XR)",
-  "link": "",
+  "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=007d4cb9-3fa9-40f3-b5ca-4083eccd6038",
   "areas": [
    "E"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Effective date and set ID confirmed in openFDA (ANDA214651, held by Aurobindo; Vangard is the repackager). Link goes to DailyMed, which shows the current version."
  },
  {
   "key": "FDAMemantineIR2023",
   "text": "Memantine hydrochloride tablets prescribing information (Amneal). Label effective 17 Aug 2023 (set id 054069b5-7aac-4106-821f-ebf7fd531b4f), via openFDA. (Generic of Namenda)",
-  "link": "",
+  "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=054069b5-7aac-4106-821f-ebf7fd531b4f",
   "areas": [
    "E"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Labeller and effective date confirmed in openFDA. Link goes to DailyMed, which shows the current version of this label."
  },
  {
   "key": "FDANamzaric2026",
   "text": "Allergan. NAMZARIC (memantine ER/donepezil) prescribing information. Label effective 6 Mar 2026 (set id 90fedc32-19e5-480c-afc6-f35a5cf4b9aa), via openFDA.",
-  "link": "",
+  "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=90fedc32-19e5-480c-afc6-f35a5cf4b9aa",
   "areas": [
    "E"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Labeller and effective date confirmed in openFDA. Link goes to DailyMed, which shows the current version of this label."
  },
  {
   "key": "FDANuplazid2026",
   "text": "Acadia. NUPLAZID (pimavanserin) prescribing information. Label effective 18 Jun 2026 (set id 1e6bea44-57d6-4bac-9328-46e1ee59f83b), via openFDA.",
-  "link": "",
+  "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e6bea44-57d6-4bac-9328-46e1ee59f83b",
   "areas": [
    "E"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Labeller and effective date confirmed in openFDA. Link goes to DailyMed, which shows the current version of this label."
  },
  {
   "key": "FDARexulti2026",
   "text": "Otsuka. REXULTI (brexpiprazole) prescribing information. Label effective 6 May 2026 (set id 2d301358-6291-4ec1-bd87-37b4ad9bd850), via openFDA. (Boxed warning, section 5.1 with 17-trial 1.6–1.7x figure, section 2.4, Table 11)",
-  "link": "",
+  "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2d301358-6291-4ec1-bd87-37b4ad9bd850",
   "areas": [
    "E"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Labeller and effective date confirmed in openFDA. Link goes to DailyMed, which shows the current version of this label."
  },
  {
   "key": "FDARivastigmineCaps2022",
   "text": "Alembic. Rivastigmine tartrate capsules prescribing information. Label effective 21 Mar 2022 (set id 0044f1d7-613c-4611-8481-13032c8cb390), via openFDA. (Generic of Exelon capsules)",
-  "link": "",
+  "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0044f1d7-613c-4611-8481-13032c8cb390",
   "areas": [
    "E"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Labeller and effective date confirmed in openFDA. Link goes to DailyMed, which shows the current version of this label."
  },
  {
   "key": "Fernando2017",
@@ -1575,12 +1610,13 @@
  },
  {
   "key": "FiercePharma2025",
-  "text": "Fierce Pharma. China did not renew approval of controversial Alzheimer's drug, regulator's records show. https://www.fiercepharma.com/pharma/china-did-not-renew-approval-controversial-alzheimers-drug (page blocked to automated access; content and the November 2024 lapse date known only through search summaries and a December 2025 Fosun filing report; unverified)",
+  "text": "Liu A. China did not renew approval of controversial Alzheimer's drug, regulator's records show. Fierce Pharma. 14 Aug 2025. https://www.fiercepharma.com/pharma/china-did-not-renew-approval-controversial-alzheimers-drug",
   "link": "https://www.fiercepharma.com/pharma/china-did-not-renew-approval-controversial-alzheimers-drug",
   "areas": [
    "I"
   ],
-  "unverified": true
+  "unverified": false,
+  "note": "Article read 19 Oct 2026. It reports that NMPA did not renew GV-971's conditional approval (records of 12 Aug 2025) and that production stopped in May 2025 after the licence expired. It gives no November 2024 lapse date, so that date is not supported by this source."
  },
  {
   "key": "Finucane1999",
@@ -1620,12 +1656,13 @@
  },
  {
   "key": "Fogg2018",
-  "text": "Fogg C, Griffiths P, Meredith P, Bridges J. Hospital outcomes of older people with cognitive impairment: an integrative review. Int J Geriatr Psychiatry. 2018. PMID 29947150. doi:10.1002/gps.4919.",
+  "text": "Fogg C, Griffiths P, Meredith P, Bridges J. Hospital outcomes of older people with cognitive impairment: an integrative review. Int J Geriatr Psychiatry. 2018;33(9):1177-1197. PMID 29947150. doi:10.1002/gps.4919.",
   "link": "https://doi.org/10.1002/gps.4919",
   "areas": [
    "H"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Volume, issue and pages added from PubMed."
  },
  {
   "key": "Folstein1975",
@@ -1713,12 +1750,13 @@
  },
  {
   "key": "FuchsLacelle2004",
-  "text": "Fuchs-Lacelle S, Hadjistavropoulos T. Development and preliminary validation of the PACSLAC. Pain Manag Nurs. 2004;5(1):37-49. PMID 14999652. doi:10.1016/j.pmn.2003.10.001.",
+  "text": "Fuchs-Lacelle S, Hadjistavropoulos T. Development and preliminary validation of the pain assessment checklist for seniors with limited ability to communicate (PACSLAC). Pain Manag Nurs. 2004;5(1):37-49. PMID 14999652. doi:10.1016/j.pmn.2003.10.001.",
   "link": "https://doi.org/10.1016/j.pmn.2003.10.001",
   "areas": [
    "H"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Title was shortened; now the full published title."
  },
  {
   "key": "Gathercole2021",
@@ -1749,21 +1787,23 @@
  },
  {
   "key": "GBD2019Forecasting",
-  "text": "GBD 2019 Dementia Forecasting Collaborators. Estimation of the global prevalence of dementia in 2019 and forecasted prevalence in 2050. Lancet Public Health. 2022;7(2):e105-e125. PMID 34998485. doi:10.1016/S2468-2667(21)00249-8. (abstract)",
+  "text": "GBD 2019 Dementia Forecasting Collaborators. Estimation of the global prevalence of dementia in 2019 and forecasted prevalence in 2050: an analysis for the Global Burden of Disease Study 2019. Lancet Public Health. 2022;7(2):e105-e125. PMID 34998485. doi:10.1016/S2468-2667(21)00249-8. (abstract)",
   "link": "https://doi.org/10.1016/s2468-2667(21)00249-8",
   "areas": [
    "A"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Title was shortened; now the full published title."
  },
  {
   "key": "GBD2021Nervous",
-  "text": "GBD 2021 Nervous System Disorders Collaborators. Global, regional, and national burden of disorders affecting the nervous system, 1990-2021. Lancet Neurol. 2024;23(4):344-381. PMID 38493795. doi:10.1016/S1474-4422(24)00038-3. (abstract)",
+  "text": "GBD 2021 Nervous System Disorders Collaborators. Global, regional, and national burden of disorders affecting the nervous system, 1990-2021: a systematic analysis for the Global Burden of Disease Study 2021. Lancet Neurol. 2024;23(4):344-381. PMID 38493795. doi:10.1016/S1474-4422(24)00038-3. (abstract)",
   "link": "https://doi.org/10.1016/s1474-4422(24)00038-3",
   "areas": [
    "A"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Title was shortened; now the full published title."
  },
  {
   "key": "Genin2011",
@@ -1839,12 +1879,13 @@
  },
  {
   "key": "Goldman2019",
-  "text": "Goldman JS, Hahn SE, Catania JW, et al. ADDENDUM: Genetic counseling and testing for Alzheimer disease: joint practice guidelines of the ACMG and NSGC. Genet Med. 2019;21(10):2404. PMID 31217590. doi:10.1038/s41436-019-0559-1. (addendum content not read)",
+  "text": "Goldman JS, Hahn SE, Catania JW, et al. ADDENDUM: Genetic counseling and testing for Alzheimer disease: joint practice guidelines of the American College of Medical Genetics and the National Society of Genetic Counselors. Genet Med. 2019;21(10):2404. PMID 31217590. doi:10.1038/s41436-019-0559-1. (addendum content not read)",
   "link": "https://doi.org/10.1038/s41436-019-0559-1",
   "areas": [
    "C"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Title was shortened; now the full published title."
  },
  {
   "key": "GomezIsla1996",
@@ -2131,21 +2172,23 @@
  },
  {
   "key": "Hey2026",
-  "text": "Hey JA, Abushakra S, Power A, et al. Plasma Biomarker Effects of Oral Valiltramiprosate/ALZ-801 in Early Alzheimer's Disease from Phase 3 and Phase 2 Trials. Drugs. 2026;86(10):1705-1721. PMID 42678603. doi:10.1007/s40265-026-02381-3. (sponsor-authored)",
+  "text": "Hey JA, Abushakra S, Power A, et al. Plasma Biomarker Effects of Oral Valiltramiprosate/ALZ-801 in Early Alzheimer's Disease from Phase 3 and Phase 2 Trials: Analysis of Core Biomarkers and Correlations with Clinical and Neuroimaging Outcomes. Drugs. 2026;86(10):1705-1721. PMID 42678603. doi:10.1007/s40265-026-02381-3. (sponsor-authored)",
   "link": "https://doi.org/10.1007/s40265-026-02381-3",
   "areas": [
    "I"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Title was shortened; now the full published title."
  },
  {
   "key": "Hippius2003",
-  "text": "Hippius H, Neundörfer G. The discovery of Alzheimer's disease. Dialogues Clin Neurosci. 2003;5(1):101-108. PMID 22034141. PMCID PMC3181715. (full text)",
+  "text": "Hippius H, Neundörfer G. The discovery of Alzheimer's disease. Dialogues Clin Neurosci. 2003;5(1):101-108. PMID 22034141. PMCID PMC3181715. doi:10.31887/DCNS.2003.5.1/hhippius. (full text)",
   "link": "https://pubmed.ncbi.nlm.nih.gov/22034141/",
   "areas": [
    "A"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "DOI added from Crossref."
  },
  {
   "key": "Hithersay2019",
@@ -2406,12 +2449,13 @@
  },
  {
   "key": "Kaiser2009",
-  "text": "Kaiser MJ, Bauer JM, Ramsch C, et al. Validation of the Mini Nutritional Assessment short-form (MNA-SF). J Nutr Health Aging. 2009;13(9):782-788. PMID 19812868. doi:10.1007/s12603-009-0214-7.",
+  "text": "Kaiser MJ, Bauer JM, Ramsch C, et al. Validation of the Mini Nutritional Assessment short-form (MNA-SF): a practical tool for identification of nutritional status. J Nutr Health Aging. 2009;13(9):782-788. PMID 19812868. doi:10.1007/s12603-009-0214-7.",
   "link": "https://doi.org/10.1007/s12603-009-0214-7",
   "areas": [
    "H"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Title was shortened; now the full published title."
  },
  {
   "key": "Kales2014",
@@ -2469,12 +2513,13 @@
  },
  {
   "key": "Katz1963",
-  "text": "Katz S, Ford AB, Moskowitz RW, Jackson BA, Jaffe MW. Studies of illness in the aged. The index of ADL. JAMA. 1963;185:914-919. PMID 14044222. doi:10.1001/jama.1963.03060120024016. (no abstract; item count from secondary summaries)",
+  "text": "Katz S, Ford AB, Moskowitz RW, Jackson BA, Jaffe MW. Studies of illness in the aged. The index of ADL: a standardized measure of biological and psychosocial function. JAMA. 1963;185:914-919. PMID 14044222. doi:10.1001/jama.1963.03060120024016. (no abstract; item count from secondary summaries)",
   "link": "https://doi.org/10.1001/jama.1963.03060120024016",
   "areas": [
    "H"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Title was shortened; now the full published title."
  },
  {
   "key": "Katzman1976",
@@ -2533,20 +2578,22 @@
  {
   "key": "KisunlaLabel",
   "text": "Eli Lilly and Company. KISUNLA (donanemab-azbt) US prescribing information. Label effective 2025-12-30 (openFDA).",
-  "link": "",
+  "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=190352d4-ef62-4679-b4fa-e846e2766afa",
   "areas": [
    "H"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Labeller and effective date confirmed in openFDA. Link goes to DailyMed, which shows the current version of this label."
  },
  {
   "key": "KisunlaLabel2025",
   "text": "Eli Lilly and Co. KISUNLA (donanemab-azbt) injection, US Prescribing Information. Effective 30 Dec 2025, set ID 190352d4-ef62-4679-b4fa-e846e2766afa. (read via openFDA drug label API)",
-  "link": "",
+  "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=190352d4-ef62-4679-b4fa-e846e2766afa",
   "areas": [
    "F"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Labeller and effective date confirmed in openFDA. Link goes to DailyMed, which shows the current version of this label."
  },
  {
   "key": "Kivimaki2019",
@@ -2650,11 +2697,12 @@
  {
   "key": "Kulic2025",
   "text": "Kulic L, Alcaraz F, Klein G, Salloway S, et al. Latest results from the dose-expansion part (Part 2) of the Brainshuttle AD study of trontinemab in people with Alzheimer's disease. Alzheimers Dement. 2025;21(Suppl 5). PMCID PMC12740976. (conference abstract, sponsor-authored)",
-  "link": "",
+  "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12740976/",
   "areas": [
    "I"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Checked against Europe PMC. Conference abstract with no PMID or DOI; link added to the PMC copy."
  },
  {
   "key": "Kunkle2019",
@@ -2767,20 +2815,22 @@
  {
   "key": "LeqembiLabel",
   "text": "Eisai Inc. LEQEMBI (lecanemab-irmb) US prescribing information, including LEQEMBI IQLIK. Label effective 2026-07-21 (openFDA).",
-  "link": "",
+  "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9d1ff786-e577-410a-a273-c4d7d0e4e975",
   "areas": [
    "H"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Labeller and effective date confirmed in openFDA. Link goes to DailyMed, which shows the current version of this label."
  },
  {
   "key": "LeqembiLabel2026",
   "text": "Eisai Inc. LEQEMBI (lecanemab-irmb) injection IV / LEQEMBI IQLIK SC, US Prescribing Information. Effective 21 Jul 2026, set ID 9d1ff786-e577-410a-a273-c4d7d0e4e975. (read via openFDA drug label API)",
-  "link": "",
+  "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9d1ff786-e577-410a-a273-c4d7d0e4e975",
   "areas": [
    "F"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Labeller and effective date confirmed in openFDA. Link goes to DailyMed, which shows the current version of this label."
  },
  {
   "key": "Lesne2006",
@@ -2820,12 +2870,13 @@
  },
  {
   "key": "Lexeo2024",
-  "text": "Lexeo Therapeutics. Lexeo Therapeutics announces positive interim data for LX1001 ... at the CTAD conference. Press release, 30 October 2024. https://ir.lexeotx.com (company press release; content seen through search summaries and secondary reports; exact denominators unverified)",
-  "link": "https://ir.lexeotx.com",
+  "text": "Lexeo Therapeutics. Lexeo Therapeutics announces positive interim data for LX1001, first-ever gene therapy to impact the underlying genetic cause of APOE4-associated Alzheimer's disease, at the Clinical Trials on Alzheimer's Disease (CTAD) conference. Press release, 30 October 2024. (company press release)",
+  "link": "https://ir.lexeotx.com/news-releases/news-release-details/lexeo-therapeutics-announces-positive-interim-data-lx1001-first",
   "areas": [
    "I"
   ],
-  "unverified": true
+  "unverified": false,
+  "note": "Release read 19 Oct 2026. It states 15 participants dosed in four cohorts and tau PET reduction at 6 months in 5 of 6 (tau PET done in cohorts 3 and 4 only). It gives no denominator for the CSF tau falls."
  },
  {
   "key": "Lichtner2014",
@@ -2973,12 +3024,13 @@
  },
  {
   "key": "LPFT2022",
-  "text": "Leicestershire Partnership NHS Trust. Covert Administration of Medicines Policy. 2022. https://leicspart.nhs.uk/wp-content/uploads/2022/11/Covert-Administration-of-Medicines-Policy-2.pdf (local NHS policy; read via search summary only).",
-  "link": "https://leicspart.nhs.uk/wp-content/uploads/2022/11/Covert-Administration-of-Medicines-Policy-2.pdf",
+  "text": "Leicestershire Partnership NHS Trust. Covert Administration of Medicines Policy. Version 4, adopted 2 November 2022; superseded by version 5, January 2025 (expires 31 January 2028).",
+  "link": "https://leicspart.nhs.uk/wp-content/uploads/2022/11/Covert-Administration-of-Medicines-Policy-Exp-Jan-28.pdf",
   "areas": [
    "H"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "The 2022 link now redirects to itself and never loads; linked to the current version 5. Both versions (v4 read via the Internet Archive) say crushing tablets or opening capsules makes the product unlicensed, with the prescriber accepting liability. Neither contains the phrase 'exceptional circumstances'."
  },
  {
   "key": "Lu2024",
@@ -3047,11 +3099,12 @@
  {
   "key": "Maguire2025",
   "text": "Maguire R, Byrnes W, Barton M, et al. Tau positron emission tomography results from TOGETHER, a double-blind, placebo-controlled Phase II study of bepranemab in prodromal-mild Alzheimer's disease. Alzheimers Dement. 2025;21(Suppl 5). PMCID PMC12739807. (conference abstract, sponsor-authored; no PMID)",
-  "link": "",
+  "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12739807/",
   "areas": [
    "I"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Checked against Europe PMC. Conference abstract with no PMID or DOI; link added to the PMC copy."
  },
  {
   "key": "Marquardt2014",
@@ -3154,13 +3207,14 @@
  },
  {
   "key": "McKhann2011",
-  "text": "McKhann GM, Knopman DS, Chertkow H, et al. The diagnosis of dementia due to Alzheimer's disease: recommendations from the NIA-AA workgroups. Alzheimers Dement. 2011;7(3):263-269. PMID 21514250. doi:10.1016/j.jalz.2011.03.005. (full text)",
+  "text": "McKhann GM, Knopman DS, Chertkow H, et al. The diagnosis of dementia due to Alzheimer's disease: recommendations from the National Institute on Aging-Alzheimer's Association workgroups on diagnostic guidelines for Alzheimer's disease. Alzheimers Dement. 2011;7(3):263-269. PMID 21514250. doi:10.1016/j.jalz.2011.03.005. (full text)",
   "link": "https://doi.org/10.1016/j.jalz.2011.03.005",
   "areas": [
    "A",
    "D"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Title was shortened; now the full published title."
  },
  {
   "key": "McShane2019",
@@ -3183,11 +3237,12 @@
  {
   "key": "MemantineXRLabel",
   "text": "Memantine hydrochloride extended-release capsules US prescribing information, section 2.1. Label effective 2026-09-01 (openFDA; generic labeller).",
-  "link": "",
+  "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=007d4cb9-3fa9-40f3-b5ca-4083eccd6038",
   "areas": [
    "H"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Labeller and effective date confirmed in openFDA. Link goes to DailyMed, which shows the current version of this label."
  },
  {
   "key": "Mendez2017",
@@ -3546,21 +3601,23 @@
  },
  {
   "key": "OBryant2008",
-  "text": "O'Bryant SE, Waring SC, Cullum CM, et al. Staging dementia using Clinical Dementia Rating Scale Sum of Boxes scores. Arch Neurol. 2008;65(8):1091-1095. PMID 18695059. doi:10.1001/archneur.65.8.1091. (abstract)",
+  "text": "O'Bryant SE, Waring SC, Cullum CM, et al. Staging dementia using Clinical Dementia Rating Scale Sum of Boxes scores: a Texas Alzheimer's research consortium study. Arch Neurol. 2008;65(8):1091-1095. PMID 18695059. doi:10.1001/archneur.65.8.1091. (abstract)",
   "link": "https://doi.org/10.1001/archneur.65.8.1091",
   "areas": [
    "A"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Title was shortened; now the full published title."
  },
  {
   "key": "OIG2021",
   "text": "HHS Office of Inspector General. CMS Could Improve the Data It Uses To Monitor Antipsychotic Drugs in Nursing Homes. OEI-07-19-00490. May 2021.",
-  "link": "",
+  "link": "https://oig.hhs.gov/reports/all/2021/cms-could-improve-the-data-it-uses-to-monitor-antipsychotic-drugs-in-nursing-homes/",
   "areas": [
    "H"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Report located; number OEI-07-19-00490, issued 3 May 2021."
  },
  {
   "key": "Olsson2016",
@@ -3600,12 +3657,13 @@
  },
  {
   "key": "Owens2020",
-  "text": "US Preventive Services Task Force; Owens DK, et al. Screening for cognitive impairment in older adults: USPSTF recommendation statement. JAMA. 2020;323(8):757-763. PMID 32096858. doi:10.1001/jama.2020.0435.",
+  "text": "US Preventive Services Task Force; Owens DK, et al. Screening for cognitive impairment in older adults: US Preventive Services Task Force Recommendation Statement. JAMA. 2020;323(8):757-763. PMID 32096858. doi:10.1001/jama.2020.0435.",
   "link": "https://doi.org/10.1001/jama.2020.0435",
   "areas": [
    "H"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Title was shortened; now the full published title."
  },
  {
   "key": "Paczynski2025",
@@ -3695,12 +3753,13 @@
  },
  {
   "key": "Petersen2018",
-  "text": "Petersen RC, Lopez O, Armstrong MJ, et al. Practice guideline update summary: mild cognitive impairment. Neurology. 2018;90(3):126-135. PMID 29282327. doi:10.1212/WNL.0000000000004826. (abstract; Europe PMC now labels this guideline \"RETIRED\")",
+  "text": "Petersen RC, Lopez O, Armstrong MJ, et al. Practice guideline update summary: Mild cognitive impairment: Report of the Guideline Development, Dissemination, and Implementation Subcommittee of the American Academy of Neurology. Neurology. 2018;90(3):126-135. PMID 29282327. doi:10.1212/WNL.0000000000004826. (abstract; Europe PMC now labels this guideline \"RETIRED\")",
   "link": "https://doi.org/10.1212/wnl.0000000000004826",
   "areas": [
    "A"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Title was shortened; now the full published title."
  },
  {
   "key": "Petersen2023",
@@ -3778,11 +3837,12 @@
  {
   "key": "Power2025",
   "text": "Power A, Abushakra S, Watson D, et al. Efficacy and Safety of Oral Valiltramiprosate in APOE4/4 Homozygotes with Early AD: Topline Results from the APOLLOE4 Phase 3 Trial. Alzheimers Dement. 2025;21(Suppl 7). PMCID PMC12726020. (conference abstract, sponsor-authored)",
-  "link": "",
+  "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12726020/",
   "areas": [
    "I"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Checked against Europe PMC. Conference abstract with no PMID or DOI; link added to the PMC copy."
  },
  {
   "key": "Pozzi2022",
@@ -3796,7 +3856,7 @@
  {
   "key": "PracticalNeurology2024",
   "text": "Practical Neurology. Biogen announces cancelation of Aduhelm, redirection towards Leqembi (31 Jan 2024). https://practicalneurology.com/news/biogen-announces-cancelation-of-aduhelm-redirection-towards-leqembi",
-  "link": "https://practicalneurology.com/news/biogen-announces-cancelation-of-aduhelm-redirection-towards-leqembi",
+  "link": "https://practicalneurology.com/news/biogen-announces-cancelation-of-aduhelm-redirection-towards-leqembi/2470392/",
   "areas": [
    "F"
   ],
@@ -3813,21 +3873,23 @@
  },
  {
   "key": "PsychNews2008",
-  "text": "Psychiatric News / The Pharma Letter coverage of FDA's 16 June 2008 notice extending the boxed warning to conventional antipsychotics. https://psychiatryonline.org/doi/10.1176/pn.43.14.0001 ; https://www.thepharmaletter.com/fda-to-add-boxed-warnings-to-conventional-antipsychotics (secondary; FDA notice itself not accessed)",
-  "link": "https://psychiatryonline.org/doi/10.1176/pn.43.14.0001",
+  "text": "Yan J. FDA extends black-box warning to all antipsychotics. Psychiatric News. 2008;43(14):1-27. doi:10.1176/pn.43.14.0001. Also reported by The Pharma Letter: https://www.thepharmaletter.com/fda-to-add-boxed-warnings-to-conventional-antipsychotics (secondary; the FDA notice itself was not accessed)",
+  "link": "https://doi.org/10.1176/pn.43.14.0001",
   "areas": [
    "E"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Entry named the publication but not the article; author, title and volume added from Crossref."
  },
  {
   "key": "PublicCitizenND",
   "text": "Public Citizen. Petition to ban 23-milligram dose of donepezil (Aricept). Undated web page. https://www.citizen.org/our-work/health-and-safety/articles/petition-ban-23-milligram-dose-donepezil-aricept (states 13 Oct 2006 severe-AD approval; consistent with Drugs@FDA efficacy supplement date; advocacy source)",
-  "link": "https://www.citizen.org/our-work/health-and-safety/articles/petition-ban-23-milligram-dose-donepezil-aricept",
+  "link": "https://www.citizen.org/article/petition-to-ban-23-milligram-dose-of-donepezil-aricept/",
   "areas": [
    "E"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Old address redirects; link updated to the current page."
  },
  {
   "key": "Qian2017",
@@ -3849,12 +3911,13 @@
  },
  {
   "key": "Rabinovici2019",
-  "text": "Rabinovici GD, Gatsonis C, Apgar C, et al. Association of amyloid PET with subsequent change in clinical management among Medicare beneficiaries with MCI or dementia (IDEAS). JAMA. 2019;321(13):1286-1294. PMID 30938796. doi:10.1001/jama.2019.2000. (abstract)",
+  "text": "Rabinovici GD, Gatsonis C, Apgar C, et al. Association of amyloid positron emission tomography with subsequent change in clinical management among Medicare beneficiaries with mild cognitive impairment or dementia. JAMA. 2019;321(13):1286-1294. PMID 30938796. doi:10.1001/jama.2019.2000. (abstract)",
   "link": "https://doi.org/10.1001/jama.2019.2000",
   "areas": [
    "D"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Title was shortened; now the full published title."
  },
  {
   "key": "Rabinovici2025",
@@ -3927,7 +3990,8 @@
   "areas": [
    "A"
   ],
-  "unverified": true
+  "unverified": false,
+  "note": "Citation confirmed against PubMed. The paper has no abstract and was not read; stage durations are not checked and are not shown in the app."
  },
  {
   "key": "Reish2023",
@@ -4205,11 +4269,12 @@
  {
   "key": "Shulman2000",
   "text": "Shulman KI. Clock-drawing: is it the ideal cognitive screening test? Int J Geriatr Psychiatry. 2000;15(6):548-561. PMID 10861923. doi:10.1002/1099-1166(200006)15:6<548::aid-gps242>3.0.co;2-u. (abstract)",
-  "link": "https://doi.org/10.1002/1099-1166(200006)15:6<548::aid-gps242>3.0.co",
+  "link": "https://doi.org/10.1002/1099-1166(200006)15:6%3C548::AID-GPS242%3E3.0.CO;2-U",
   "areas": [
    "D"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Link was cut off at the semicolon inside this DOI and did not resolve; fixed."
  },
  {
   "key": "Shulman2023",
@@ -4371,22 +4436,24 @@
  },
  {
   "key": "Tariot2026",
-  "text": "Tariot PN, Lopera FS, Ríos-Romenets S, et al. Safety and efficacy of crenezumab in cognitively unimpaired carriers of the PSEN1 Glu280Ala mutation (API ADAD Colombia Trial): a phase 2, randomised, double-blind, placebo-controlled trial. Lancet Neurol. 2026;25(2):147-159. PMID 41579901. doi:10.1016/S1474-4422(25)00426-0.",
+  "text": "Tariot PN, Lopera FS, Ríos-Romenets S, et al. Safety and efficacy of crenezumab in cognitively unimpaired carriers of the PSEN1(Glu280Ala) mutation at risk for autosomal-dominant Alzheimer's disease in Colombia (API ADAD Colombia Trial): a phase 2, randomised, double-blind, placebo-controlled trial. Lancet Neurol. 2026;25(2):147-159. PMID 41579901. doi:10.1016/S1474-4422(25)00426-0.",
   "link": "https://doi.org/10.1016/s1474-4422(25)00426-0",
   "areas": [
    "C",
    "I"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Title was shortened; now the full published title."
  },
  {
   "key": "TauRx2026",
-  "text": "TauRx Therapeutics. Company news on the MHRA marketing authorisation application for HMTM (1 October 2025; 9 July 2026). https://taurx.com (company statements; MHRA decision pending as of July 2026)",
-  "link": "https://taurx.com",
+  "text": "TauRx Therapeutics. MHRA response to HMTM Marketing Authorisation Application. Company news, 1 October 2025. (company statement; a 9 July 2026 update was cited by the research but could not be found on the company site)",
+  "link": "https://taurx.com/insights/industry-news/mhra-response-to-hmtm-marketing-authorisation-application",
   "areas": [
    "I"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "1 October 2025 item read. The 9 July 2026 statement could not be located on taurx.com on 19 Oct 2026."
  },
  {
   "key": "Teng2022",
@@ -4462,12 +4529,13 @@
  },
  {
   "key": "Tortelli2025",
-  "text": "Tortelli R, Gaspar E, Kurniawan I, et al. GABriella, a Phase 2a study investigating the gamma-secretase modulator RG6289 in individuals at risk for and at the prodromal stage of Alzheimer's disease: baseline characteristics. Alzheimers Dement. 2025;21(Suppl 7). PMCID PMC12726463. (conference abstract)",
-  "link": "",
+  "text": "Tortelli R, Gaspar E, Kurniawan I, et al. GABriella, a Phase 2a study investigating the gamma-secretase modulator RG6289 in individuals at risk for and at the prodromal stage of Alzheimer's disease: baseline characteristics of the recruited participants. Alzheimers Dement. 2025;21(Suppl 7). PMCID PMC12726463. (conference abstract)",
+  "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12726463/",
   "areas": [
    "I"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Checked against Europe PMC. Conference abstract with no PMID or DOI; link added to the PMC copy. Title was shortened; now the full published title."
  },
  {
   "key": "Tsoi2015",
@@ -4539,11 +4607,12 @@
  {
   "key": "vanDyck2025AAIC",
   "text": "van Dyck C, Li D, Kanekiyo M, et al. The Lecanemab Clarity AD Open-Label Extension in Early Alzheimer's Disease: Initial Findings From the 48-Month Analysis. Alzheimers Dement. 2025;21(Suppl 7). PMCID PMC12725329. (conference abstract)",
-  "link": "",
+  "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12725329/",
   "areas": [
    "F"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "Checked against Europe PMC. Conference abstract with no PMID or DOI; link added to the PMC copy."
  },
  {
   "key": "vanDyck2025OLE",
@@ -4692,11 +4761,12 @@
  {
   "key": "WHO2019",
   "text": "World Health Organization. Risk reduction of cognitive decline and dementia: WHO guidelines. Geneva: WHO; 2019. ISBN 9789241550543. (Primary document blocked to automated access; recommendations and grades taken from Chowdhary2021, a WHO-authored summary.)",
-  "link": "",
+  "link": "https://www.who.int/publications/i/item/9789241550543",
   "areas": [
    "G"
   ],
-  "unverified": false
+  "unverified": false,
+  "note": "WHO page confirms title and ISBN. The guideline itself was not read; the recommendations come from Chowdhary2021, as the entry says."
  },
  {
   "key": "WHO2026Dementia",
