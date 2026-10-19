@@ -2,7 +2,7 @@
 /* =============== 1.5 glia: microglia and the lost synapse =============== */
 const GL_STEPS=[
  {from:0,at:.04,k:'Step 1 · Healthy tissue',t:'Synapses and resting microglia',
-  txt:'Each contact here is a synapse: a swelling on an axon (the bouton) facing a small spine on a dendrite. Microglia, the brain\'s resident immune cells, sit among them with long branching processes. During development, complement proteins tag extra synapses and microglia prune them; in Alzheimer\'s that pruning appears to be switched back on. [[Hong2016]]',
+  txt:'Each contact here is a synapse: a swelling on an axon (the bouton) facing a small spine on a dendrite. Microglia, the brain\'s resident immune cells, sit among them with long branching processes. During development, complement proteins tag extra synapses and microglia prune them; in mouse models of Alzheimer\'s that pruning appears to be switched back on. [[Hong2016]]',
   pt:'Nerve cells pass messages at tiny contact points called synapses. Small immune cells called microglia keep watch between them.'},
  {from:.12,at:.18,k:'Step 2 · Oligomers',t:'Soluble amyloid gathers',
   txt:'Small soluble clumps of amyloid beta, called oligomers, collect near synapses. In mouse models, the complement protein C1q was needed for these oligomers to harm synapses. [[Hong2016]] How oligomers form is shown in <a href="#amyloid" data-go="amyloid">Amyloid, animated</a>.',
@@ -20,12 +20,12 @@ const GL_STEPS=[
   hook:'CA1 synapse loss: about 18% in MCI, about 55% in mild Alzheimer\'s. It correlates with recall, not with Braak stage. [[Scheff2007]]'},
  {from:.74,at:.8,k:'Step 6 · The plaque barrier',t:'TREM2 and the microglial wall',
   txt:'A plaque forms. Microglia need the receptor TREM2 to wrap around plaques. In mice without TREM2, plaques were more diffuse and surrounded by more damaged neurites, which suggests the wrap is a protective barrier. [[Wang2016]] A rare TREM2 variant, R47H, raised Alzheimer\'s risk about 2.9-fold in Iceland (odds ratio 2.92), and the finding replicated in other groups. [[Jonsson2013,Guerreiro2013]]',
-  pt:'Immune cells normally build a wall around each plaque. A rare gene change that weakens them nearly triples the risk of Alzheimer\'s.',
+  pt:'Immune cells normally build a wall around each plaque. A rare change in TREM2, a gene these cells need to build that wall, nearly triples the risk of Alzheimer\'s.',
   hook:'TREM2 is a microglial receptor. R47H: odds ratio about 2.9; it was carried by 0.46% of Icelandic controls aged 85 and over. [[Jonsson2013]]'},
  {from:.88,at:.95,k:'Step 7 · Astrocytes',t:'Astrocytes react, synapses keep falling',
   txt:'Activated microglia release IL-1α, TNF and C1q, which push astrocytes into a reactive state that supports neurons less well. [[Liddelow2017]] Synapse density, falling here, is the strongest structural correlate of cognitive decline, as the next chart shows. [[Terry1991]]',
   pt:'Support cells called astrocytes are pulled in too. The more contact points are lost, the more memory and thinking suffer.',
-  hook:'Strongest structural correlate of cognition in Alzheimer\'s: synapse loss (Terry 1991), ahead of tangles and far ahead of plaques.'}
+  hook:'Strongest structural correlate of cognition in Alzheimer\'s: synapse loss (Terry 1991); plaques and tangles correlated only weakly. [[Terry1991]]'}
 ];
 inits.glia=()=>{
   const svg=$('#glSvg'),rg=$('#glT');let r47=false,block=false,lastNote='';

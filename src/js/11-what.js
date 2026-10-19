@@ -157,6 +157,7 @@ inits.what=()=>{
     const p=phaseOf(WH_AGE,t);setAge(p);
     let P=WH_AGE[p];
     $('#whAgeNote').innerHTML=noteHTML(P);
+    ag.setAttribute('aria-label',inc?'Four groups of 100 people by age band fill in with the share who develop Alzheimer\'s dementia each year in the US: no yearly figure under 65, 0.4 at 65 to 74, 3.2 at 75 to 84 and 7.6 at 85 and over, as an age marker moves from 30 to 100.':'Four groups of 100 people by age band fill in with the share who have Alzheimer\'s dementia in the US: very few under 65, 5.1 at 65 to 74, 13.2 at 75 to 84 and 33.4 at 85 and over, as an age marker moves from 30 to 100.');
     $('#whAgeCap').textContent=inc?'New cases each year per 100 people in the band (CHAP estimates for 2011). Each figure is 1 person in 100.':'Share living with Alzheimer\'s dementia (US, 2025). Under 65: younger-onset dementia from any cause. Each figure is 1 person in 100.';
   }
   const stopA=playWire(ar,$('#whAgePlay'),drawAge,13000,'Replay','what');

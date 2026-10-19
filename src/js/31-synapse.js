@@ -37,7 +37,7 @@ const SY_COND={
   hook:`Rivastigmine is the only one of the three that also inhibits BuChE. The 2006 Cochrane review found no efficacy difference between the three, and fewer adverse effects with donepezil than rivastigmine. [[Birks2006]]`},
  gal:{lbl:'Galantamine',n:8,ves:[1,3],bind:4,ache:1,buche:0,flag:1,
   txt:`Galantamine is a competitive, reversible AChE inhibitor with a half-life of about 7 hours, cleared through CYP2D6 and CYP3A4. A 2003 study reported that it also boosts nicotinic receptors as an allosteric potentiating ligand. A 2018 study on human α4β2 and α7 receptors did not reproduce this, and found pore block at higher concentrations. A 2004 review judged the relevance at brain levels unclear. [[FDAGalantamineER2025,Noetzli2013,Samochocki2003,Kowal2018,Wilkinson2004]]`,
-  pt:`It jams the clean-up enzyme like the others. A claimed second action on nicotinic receptors has not held up in later testing.`,
+  pt:`It jams the clean-up enzyme like the others. A claimed second action on nicotinic receptors was not reproduced in a later study, so it is disputed.`,
   hook:`Galantamine's nicotinic modulation: reported 2003 (Samochocki), not reproduced 2018 (Kowal). Treat it as contested.`}
 };
 const SY_NM=[
@@ -359,7 +359,7 @@ inits.synapse=()=>{
     }
     bs.innerHTML=s;
     $('#syBenNote').innerHTML=noteHTML(SY_BEN[view]);
-    $('#syBenCap').textContent=['Average differences, drug versus placebo. Whiskers are 95% confidence intervals. Bars start at zero on each scale.','Percent of people reporting each effect in placebo-controlled trials, as listed in the US labels.','Points are estimates; lines are 95% confidence intervals. MCID = minimal clinically important difference set by DOMINO.'][view];
+    $('#syBenCap').textContent=['Average differences, drug versus placebo. Whiskers are 95% confidence intervals. Bars start at zero on each scale.','Percent of people reporting each effect in placebo-controlled trials, as listed in the US labels; patch rows are from the IDEAL trial.','Points are estimates; lines are 95% confidence intervals. MCID = minimal clinically important difference set by DOMINO.'][view];
     br.setAttribute('aria-valuetext',['Effect sizes','Side effects','Stopping'][view]+', '+Math.round(t*100)+'% revealed');
   }
   const stopBen=playWire(br,$('#syBenPlay'),drawBen,9000,'Replay','synapse');

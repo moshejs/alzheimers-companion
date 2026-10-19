@@ -15,7 +15,7 @@ const BR_B=[
   pt:'Now the tangles reach the outer cortex used for language, planning and finding your way.'},
  {k:'Braak VI · isocortical',t:'Stage VI: nearly everywhere',txt:'All association areas are severely affected, and even primary sensory cortex is involved: virtually all association cortex is destroyed. Primary motor and sensory cortex stay relatively spared in gross atrophy. [[Braak1991,DeTure2019]]',
   pt:'In the last stage almost all of the thinking cortex is affected. Areas for movement are among the last.',
-  hook:'Tangles spread in a predictable order, so the stage you reach tracks the symptoms. Plaques do not.'}
+  hook:'Tangles spread in a predictable order, and neocortical tangle burden tracks cognitive severity better than plaque counts do. [[Arriagada1992,Nelson2012]]'}
 ].map((s,k)=>({...s,from:k?.04+.15*k-.09:0,at:k?.04+.15*k:.02}));
 const BR_T=[
  {k:'Phase 0',t:'No amyloid deposits',txt:'Thal phases come from 47 brains and describe how amyloid deposits spread. Switch back to tau at any time to compare. [[Thal2002]]',

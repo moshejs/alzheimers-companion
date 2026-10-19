@@ -14,16 +14,16 @@ const AB_WK=4.345;                         // weeks per month
 const AB_G=['no APOE4 copy','one APOE4 copy','two APOE4 copies'];
 const AB_D={
  lec:{nm:'Lecanemab',trial:'CLARITY AD',end:18,ole:48,endLab:'18 mo',
-  cl0:77.92,clEnd:22.42,pb0:75.03,pbEnd:78.63,thr:30,thrLab:'green = 30 CL, positive',
-  clPts:[ {m:0,v:77.92,k:'m'},{m:18,v:22.42,k:'m'} ],
+  cl0:77.92,clEnd:22.99,pb0:75.03,pbEnd:78.63,pbEndK:'d',thr:30,thrLab:'green = 30 CL, positive',
+  clPts:[ {m:0,v:77.92,k:'m'},{m:18,v:22.99,k:'s'} ],
   cdrP:1.66,cdrD:1.21,gap:abMono([ [0,0],[6,.17],[18,.45] ]),gapPts:[6],
   sec:{lab:'Daily-living gap (ADCS-MCI-ADL)',v:2.0,max:3.5,fmt:'+2.0'},
-  e:[5.4,10.9,32.6],pe:[0.3,1.9,3.8],timing:abMono([ [0,0],[3,.71],[6,.92],[18,1] ]),tPts:[ [3,.71],[6,.92] ],
+  e:[5.4,10.9,32.6],pe:[0.3,1.9,3.8],timing:abMono([ [0,0],[3,.71],[6,.92],[18,1] ]),tPts:[ [3,.71],[6,.92] ],   // timing shares are for all ARIA-E cases; applied per genotype they are calculated, drawn as open dots
   vig:14/AB_WK,vigLab:'14',
   mriL:[0,1,2,3,6],mriA:[0,8/AB_WK,12/AB_WK,26/AB_WK],mriX:[50/AB_WK],aLab:'MRI AUR/EU'},
  don:{nm:'Donanemab',trial:'TRAILBLAZER-ALZ 2',end:76/AB_WK,ole:36,endLab:'76 wk',
-  cl0:104,clEnd:17,pb0:104,pbEnd:103.3,thr:24.1,thrLab:'green = 24.1 CL, cleared',
-  clPts:[ {m:0,v:104,k:'m'},{m:6,v:40.56,k:'s'},{m:12,v:20.8,k:'s'},{m:76/AB_WK,v:17,k:'m'} ],
+  cl0:104,clEnd:17,pb0:104,pbEnd:103.3,pbEndK:'d',thr:24.1,thrLab:'green = 24.1 CL, cleared',
+  clPts:[ {m:0,v:104,k:'m'},{m:6,v:40.56,k:'s'},{m:12,v:20.8,k:'s'},{m:76/AB_WK,v:17,k:'d'} ],   // 17 = baseline 104.0 minus the published change of 87.0
   cdrP:2.42,cdrD:1.72,gap:abMono([ [0,0],[76/AB_WK,.70] ]),gapPts:[],
   sec:{lab:'iADRS gap (higher is better)',v:2.92,max:4,fmt:'+2.92'},
   e:[15.7,22.8,40.6],pe:[0.8,1.9,3.4],timing:abMono([ [0,0],[3,.58],[76/AB_WK,1] ]),tPts:[ [3,.58] ],
@@ -109,7 +109,7 @@ const AB_MAG={
    {id:'lte',lab:'Donanemab 3 yr: early/delayed',v:6.9,v2:5.6,txt:'6.9 vs 5.6'} ]}
 };
 const AB_EX={
- pool:{k:'Meta-analysis',t:'Pooled across 8 antibodies: 0.18',txt:'A 2024 meta-analysis of 8 anti-amyloid antibodies (23,202 participants) found a pooled CDR-SB difference of 0.18 and MMSE +0.32. It concluded none of them, including lecanemab and donanemab, exceeded the minimal clinically important difference; ARIA-E risk ratio 10.29 (number needed to harm 9). Pooling includes antibodies that failed, so supporters of the newer drugs see it as diluting their effect. [[Ebell2024]]'},
+ pool:{k:'Meta-analysis',t:'Pooled across 8 antibodies: 0.18',txt:'A 2024 meta-analysis of 8 anti-amyloid antibodies (23,202 participants) found a pooled CDR-SB difference of 0.18 and MMSE +0.32. It concluded none of them, including lecanemab and donanemab, exceeded the minimal clinically important difference; ARIA-E risk ratio 10.29 (number needed to harm 9). The pool includes antibodies that failed, so the pooled figure sits below the separate lecanemab and donanemab results (0.45 and 0.70). [[Ebell2024,vanDyck2023,Sims2023]]'},
  lec:{k:'CLARITY AD',t:'Lecanemab: 0.45 points',txt:'The 18-month difference was 0.45 (95% CI 0.23 to 0.67) on a 0 to 18 scale, 27% slowing, with all key secondary endpoints also favouring lecanemab. Supporters stress the consistency across scales; critics stress that the absolute gap is under half a point. [[vanDyck2023,LeqembiLabel2026]]'},
  lec01:{k:'Post hoc subgroup',t:'Lecanemab, no or one APOE4 copy: 0.58',txt:'In the 85% of CLARITY AD who were APOE4 non-carriers or heterozygotes (the population later licensed in the EU and UK), the difference was 0.58 (0.35 to 0.81), 33% slowing. This was a post hoc analysis requested by the EMA and MHRA, which makes it weaker evidence than the prespecified primary result. [[Perry2026]]'},
  don:{k:'TRAILBLAZER-ALZ 2',t:'Donanemab, combined population: 0.70',txt:'At 76 weeks the CDR-SB difference was 0.70 (0.45 to 0.95), 29% slowing, and 23 of 24 gated outcomes were significant. Risk of moving to the next global CDR stage fell by 37.4%. [[Sims2023]]'},
@@ -133,7 +133,7 @@ inits.antibody=()=>{
   const atOf=s=>s.at==='max'?MX():s.at;
   const T=(x,y,txt,cls='t-xs',st='')=>`<text x="${f1(x)}" y="${f1(y)}" class="${cls}"${st?` style="${st}"`:''}>${txt}</text>`;
   const ln=(x1,y1,x2,y2,st)=>`<path d="M${f1(x1)} ${f1(y1)}L${f1(x2)} ${f1(y2)}" style="${st}"/>`;
-  const dot=(x,y,col,kind)=>kind==='s'?`<circle cx="${f1(x)}" cy="${f1(y)}" r="3.6" style="fill:var(--panel);stroke:${col};stroke-width:1.8"/>`
+  const dot=(x,y,col,kind)=>kind==='s'||kind==='d'?`<circle cx="${f1(x)}" cy="${f1(y)}" r="3.6" style="fill:var(--panel);stroke:${col};stroke-width:1.8"/>`
                                      :`<circle cx="${f1(x)}" cy="${f1(y)}" r="3.8" style="fill:${col};stroke:var(--panel);stroke-width:1.2"/>`;
   const poly=(fn,m0,m1,X,Y)=>{if(m1<=m0)return '';let d='';const n=Math.max(2,Math.ceil((m1-m0)*6));for(let i=0;i<=n;i++){const u=m0+(m1-m0)*i/n,v=fn(u);if(v==null)break;d+=(i?'L':'M')+f1(X(u))+' '+f1(Y(v))}return d};
   /* two labels at the end of two lines must not collide: push apart to at least gap */
@@ -167,7 +167,7 @@ inits.antibody=()=>{
       s+=microglia(p.cx+Math.cos(g0.a)*dist,p.cy+Math.sin(g0.a)*dist,5.5,1,act)});
     // readout
     const meas=d.clPts.find(p=>Math.abs(p.m-mc)<.26),proj=drug==='don'&&ole&&m>d.end+.05,none=abCL(drug,mc)==null;
-    const tag=none?'last published':proj?'projection':meas?(meas.k==='s'?'sponsor figure':'trial value'):'interpolated';
+    const tag=none?'last published':proj?'projection':meas?(meas.k==='s'?'sponsor figure':meas.k==='d'?'calculated':'trial value'):'interpolated';
     s+=T(x,y+192,`Amyloid PET ≈ ${Math.round(clNow)} CL`,'t-big')+T(x+w,y+192,tag,'t-xs t-end');
     // centiloid chart
     const cx0=x+30,cx1=x+w-64,cy0=y+222,cy1=y+312,X=v=>cx0+v/Mx*(cx1-cx0),Y=v=>cy1-v/115*(cy1-cy0);
@@ -181,7 +181,7 @@ inits.antibody=()=>{
     s+=`<path d="${poly(u=>abCLp(drug,u),0,mp,X,Y)}" style="fill:none;stroke:var(--muted);stroke-width:2"/>`;
     s+=`<path d="${poly(u=>abCL(drug,u),0,mdEnd,X,Y)}" style="fill:none;stroke:var(--sky);stroke-width:2.6"/>`;
     if(drug==='don'&&ole&&m>d.end)s+=`<path d="${poly(u=>abCL(drug,u),d.end,m,X,Y)}" style="fill:none;stroke:var(--sky);stroke-width:2;stroke-dasharray:4 3"/>`;
-    s+=dot(X(0),Y(d.pb0),'var(--muted)','m');if(m>=d.end-.01)s+=dot(X(d.end),Y(d.pbEnd),'var(--muted)','m');
+    s+=dot(X(0),Y(d.pb0),'var(--muted)','m');if(m>=d.end-.01)s+=dot(X(d.end),Y(d.pbEnd),'var(--muted)',d.pbEndK);
     d.clPts.forEach(p=>{if(m>=p.m-.01)s+=dot(X(p.m),Y(p.v),'var(--sky)',p.k)});
     s+=ln(X(m),cy0,X(m),cy1,'stroke:var(--ink);opacity:.3');
     const pv=abCLp(drug,Math.min(m,d.end)),dv=abCL(drug,drug==='lec'?Math.min(m,30):mc);
@@ -260,7 +260,7 @@ inits.antibody=()=>{
     s+=`<path d="${poly(pb,0,mp,X,Y)}" style="fill:none;stroke:var(--muted);stroke-width:2.2"/>`;
     s+=`<path d="${poly(dr,0,mp,X,Y)}" style="fill:none;stroke:var(--sky);stroke-width:2.8"/>`;
     s+=dot(X(0),Y(0),'var(--sky)','m');
-    d.tPts.forEach(([tm,fr])=>{if(m>=tm-.01)s+=dot(X(tm),Y(E*fr),'var(--sky)','m')});
+    d.tPts.forEach(([tm,fr])=>{if(m>=tm-.01)s+=dot(X(tm),Y(E*fr),'var(--sky)','d')});
     if(m>=d.end-.01)s+=dot(X(d.end),Y(E),'var(--sky)','m')+dot(X(d.end),Y(PE),'var(--muted)','m');
     if(m>=1.5){const [a,b]=sep(Y(dr(mp)),Y(pb(mp)),12);s+=T(X(mp)+6,a+3,`${d.nm} ${dr(mp).toFixed(1)}%`,'t-xs','fill:var(--sky)')+T(X(mp)+6,b+3,`Placebo ${pb(mp).toFixed(1)}%`)}
     s+=ln(X(m),py0,X(m),y+186,'stroke:var(--ink);opacity:.3');
@@ -280,7 +280,7 @@ inits.antibody=()=>{
       if(ole&&m>d.end+.26)r2='Extension: new ARIA-E after month 6 in 1.7% (MRI)'}
     else{r1=`By 76 wk: ARIA-E ${E}% vs ${PE}% placebo; any ARIA ${anyA[g]}% vs ${anyP[g]}%`;
       r2=g===2?'Modified titration, 52 wk: 24.4% vs 57.1% standard dosing':'58% of first ARIA-E by dose 3; 98% resolved on MRI';
-      if(ole&&m>d.end+.26)r2='Extension: 2 deaths, one ARIA-E, one bleed after thrombolysis'}
+      if(ole&&m>d.end+.26)r2='Extension deaths: one ARIA-E, one bleed after thrombolysis'}
     s+=T(x,y+202,r1,'t-xs','fill:var(--ink)')+T(x,y+216,r2)+T(x,y+230,`Shaded band: label's extra-vigilance window (first ${d.vigLab} wk)`);
     return s}
 
@@ -362,13 +362,13 @@ inits.antibody=()=>{
   const prevR=redraws.antibody;redraws.antibody=()=>{prevR&&prevR();drawMag()};
 
   $('#abDebate').innerHTML=`
-   <div class="card"><h4><span class="ev est">One reading</span>A real, growing benefit</h4><ul>
+   <div class="card"><h4><span class="tag">One reading</span>A real, growing benefit</h4><ul>
     <li>Both trials met their primary endpoints, with consistent results across secondary scales: all of lecanemab's key secondaries, and 23 of 24 gated donanemab outcomes. [[vanDyck2023,Sims2023]]</li>
     <li>Within-person thresholds (MCIDs) were not designed to judge a between-group average; a 0.98-point group gap would need about 60% slowing. [[Petersen2023,Lanctot2025]]</li>
     <li>Translated into time, estimates run from about 4 to 13 months, and modelled independence gains of 10 to 13 months. [[Araujo2025,Hartz2025]]</li>
     <li>Lower post-treatment amyloid tracked slower decline (CDR-SB R² 0.87), supporting plaque removal as the mechanism. [[Lu2025]]</li>
     <li>Sponsor extensions report gaps that keep widening against external cohorts. [[vanDyck2025AAIC,Zimmer2026]]</li></ul></div>
-   <div class="card"><h4><span class="ev early">Another reading</span>A small benefit at real cost</h4><ul>
+   <div class="card"><h4><span class="tag">Another reading</span>A small benefit at real cost</h4><ul>
     <li>Differences of 0.45 to 0.70 sit below anchor-based MCIDs of about 1 to 2 points; a meta-analysis found no antibody exceeded the MCID. [[Andrews2019,Ebell2024]]</li>
     <li>Benefit should be judged on whether it is noticeable, valuable and worthwhile given cost and risk; responder-style analyses can mislead. [[Liu2023,Liu2025]]</li>
     <li>Extensions lost randomization and blinding; delayed-start groups appear to catch up, which argues against lasting disease modification. [[Hazan2026a,Hazan2026b]]</li>
@@ -427,7 +427,7 @@ inits.antibody=()=>{
    ['Nov 2024','EU','14 November: on re-examination, a positive opinion for lecanemab restricted to APOE4 non-carriers and heterozygotes. [[EMA2024LeqembiReexam]]'],
    ['Jan 2025','US','26 January: IV maintenance dosing of lecanemab every 4 weeks after 18 months approved. [[Eisai2025IVmaint,LeqembiLabel2026]]'],
    ['Mar 2025','EU','CHMP refuses donanemab. [[EMA2025Kisunla]]'],
-   ['Apr 2025','EU','15 April: lecanemab authorised, with controlled access, no anticoagulants and MRI before the 5th, 7th and 14th doses. [[EMA2025Leqembi]]'],
+   ['Apr 2025','EU','15 April: lecanemab authorised for APOE4 non-carriers and heterozygotes, with controlled access, no anticoagulants and MRI before the 5th, 7th and 14th doses. [[EMA2025Leqembi]]'],
    ['Jun 2025','UK','NICE final draft guidance recommends neither drug: benefit judged modest (about 4 to 6 months\' delay) and costs too high. [[PJ2025]]'],
    ['Jul 2025','US','Kisunla label adopts the modified titration as the recommended dose and updates the boxed warning. [[KisunlaLabel2025]]'],
    ['Jul 2025','EU','24 July: on re-examination, a positive opinion for donanemab. [[EMA2025Kisunla]]'],

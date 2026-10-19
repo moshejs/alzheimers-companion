@@ -36,13 +36,13 @@ const TA_SP=[
  {from:.4,at:.52,k:'Human tau-PET',t:'Connectivity explains the pattern',
   txt:'In 312 people imaged with tau PET, a spreading model built on brain connectivity explained up to 70% of the variance in where tau sat. [[Vogel2020]]',
   pt:'In real patients, the way brain areas are wired together predicts most of where tau shows up on scans.',
-  hook:'Tau spread follows connections (up to 70% of the tau-PET pattern, Vogel 2020); amyloid deposits do not stage this way.'},
+  hook:'Tau spread follows connections: brain connectivity explained up to 70% of the tau-PET pattern (Vogel 2020). [[Vogel2020]]'},
  {from:.6,at:.7,k:'Amyloid\'s role',t:'Amyloid may speed it up',
   txt:'<span class="ev hyp">Hypothesis</span> Regions rich in amyloid had more tau than connectivity alone predicted, consistent with amyloid accelerating tau spread. [[Vogel2020]] Turn on "Show amyloid-rich regions" to see the idea. The toggle illustrates the reported association; it is not a measured speed.',
   pt:'Where amyloid is plentiful, tau seems to spread faster.'},
  {from:.8,at:.95,k:'Last stop',t:'Primary areas come last',
   txt:'The spread ends in primary areas, mirroring Braak stage VI, when even primary sensory cortex is involved. [[Braak1991,DeTure2019]] The order of spread is in <a href="#brain" data-go="brain">The brain that forgets</a>.',
-  pt:'Areas for basic sensation are reached last, which is why vision and touch are kept until late.'}
+  pt:'Areas for basic sensation, such as vision and touch, are reached last.'}
 ];
 const TA_CMP=[
  {from:0,at:.12,k:'Test 1 · Autopsy',t:'Which tracks dementia severity?',

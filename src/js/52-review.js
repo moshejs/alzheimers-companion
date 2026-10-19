@@ -212,7 +212,7 @@ const QZ=[
 [5,'In what year was Pittsburgh compound B first used to image amyloid in living people?',['1984','1996','2015','2004'],3,'The first human study included 16 people with mild Alzheimer\'s and 9 controls; retention was highest in frontal cortex.'],
 [5,'On what basis did aducanumab receive FDA accelerated approval on 7 June 2021?',['Two positive phase 3 trials on CDR-SB','Amyloid reduction as a surrogate endpoint','A unanimous advisory committee vote in favour','Reduced mortality'],1,'The advisory committee had voted in November 2020 that the clinical evidence was insufficient; only one of the two phase 3 trials met its endpoint.'],
 [5,'Which antibody was the first amyloid-directed antibody converted from accelerated to traditional FDA approval, on 6 July 2023?',['Lecanemab','Aducanumab','Donanemab','Solanezumab'],0,'The conversion followed the CLARITY AD trial. Donanemab was approved on 2 July 2024.'],
-[5,'At a 1978 meeting in Bethesda, what changed?',['The first cholinesterase inhibitor was approved','The split between presenile Alzheimer\'s disease and senile dementia was dropped','Braak staging was adopted','APOE testing was recommended'],1,'Alzheimer\'s disease had been treated as a presenile illness, separate from senile dementia, since Kraepelin named it in 1910.'],
+[5,'At a 1978 meeting in Bethesda, what changed?',['The first cholinesterase inhibitor was approved','The split between presenile Alzheimer\'s disease and senile dementia was dropped','Braak staging was adopted','APOE testing was recommended'],1,'Kraepelin had set Alzheimer\'s disease apart from senile dementia as a separate disease; that split between presenile Alzheimer\'s and senile dementia was dropped at the 1978 Bethesda meeting.'],
 [5,'When was Auguste D.\'s case file rediscovered in Frankfurt?',['November 1906','1910','June 2021','December 1995'],3,'Konrad Maurer\'s group found the file in Frankfurt; the 1997 Lancet paper reported it.']
 ];
 inits.quiz=()=>{
@@ -243,7 +243,7 @@ const GL=[
 ['ABC chart','A behaviour record of the Antecedent (what came before), the Behaviour itself and the Consequence (what followed). It is the basis of functional analysis.','nursing'],
 ['ABC score','The 2012 NIA-AA neuropathology score that combines A (Thal amyloid phase), B (Braak tangle stage) and C (CERAD neuritic plaque density) into Not, Low, Intermediate or High Alzheimer\'s change.','brain'],
 ['Aβ42/40 ratio','The ratio of Aβ42 to Aβ40 in spinal fluid or blood. An expert group recommended it over Aβ42 alone for CSF classification.','dx'],
-['Acetylcholine (ACh)','A neurotransmitter made by choline acetyltransferase and broken down in the synapse by acetylcholinesterase. Cholinergic input to the cortex is lost early in Alzheimer\'s disease.','synapse'],
+['Acetylcholine (ACh)','A neurotransmitter made by choline acetyltransferase and broken down in the synapse by acetylcholinesterase. Cholinergic input to the cortex is progressively lost in Alzheimer\'s disease.','synapse'],
 ['Acetylcholinesterase (AChE)','The enzyme in the synaptic cleft that quickly breaks acetylcholine into acetate and choline. Cholinesterase inhibitors block it.','synapse'],
 ['ADAD','Autosomal dominant Alzheimer\'s disease, caused by mutations in APP, PSEN1 or PSEN2 or by APP duplication. Each child of a carrier has a 50% chance of inheriting the mutation.','genes'],
 ['ADAS-Cog','Alzheimer\'s Disease Assessment Scale, cognitive subscale. A cognition measure used in drug trials; the version in the donepezil Cochrane review runs from 0 to 70.','synapse'],
@@ -265,7 +265,7 @@ const GL=[
 ['Auguste D.','Alois Alzheimer\'s patient, admitted in Frankfurt in November 1901. He described her brain\'s plaques and tangles in Tübingen on 3 November 1906.','history'],
 ['BACE1','Beta-site APP-cleaving enzyme 1 (beta-secretase). It cuts APP at the start of the Aβ sequence and is thought to be the rate-limiting step in Aβ production.','amyloid'],
 ['Beers Criteria','The American Geriatrics Society\'s list of potentially inappropriate medicines for older adults. The 2023 version advises avoiding benzodiazepines, Z-drugs and strong anticholinergics in dementia, and avoiding antipsychotics except in narrow circumstances.','bpsd'],
-['Best interests','Under the Mental Capacity Act 2005, any act or decision for a person who lacks capacity must be in that person\'s best interests, choosing the less restrictive option where possible.','nursing'],
+['Best interests','Under the Mental Capacity Act 2005, any act or decision for a person who lacks capacity must be in that person\'s best interests, and the less restrictive option must be considered.','nursing'],
 ['Biomarker cascade','The sequence in which Alzheimer\'s biomarkers turn abnormal: amyloid first, then tau and neurodegeneration markers, then symptoms.','cascade'],
 ['Boxed warning','The most prominent safety warning on a US drug label. Antipsychotics carry one for increased death in older people with dementia, and lecanemab and donanemab carry one for ARIA.','bpsd'],
 ['BPSD','Behavioural and psychological symptoms of dementia, also called neuropsychiatric symptoms: for example apathy, depression, agitation, anxiety, sleep problems and psychosis.','bpsd'],
@@ -309,7 +309,7 @@ const GL=[
 ['Hippocampus','A medial temporal lobe structure needed to form new episodic memories. Its atrophy on MRI is a marker of Alzheimer\'s disease.','brain'],
 ['Hyperphosphorylation','Excess phosphate groups added to tau. Hyperphosphorylated tau detaches from microtubules and assembles into tangles.','tau'],
 ['iADRS','Integrated Alzheimer\'s Disease Rating Scale (0-144, lower is worse), combining cognition and daily function. It was the primary endpoint of TRAILBLAZER-ALZ 2.','antibody'],
-['IWG','International Working Group. Its 2024 recommendation treats Alzheimer\'s as a clinical-biological construct and calls biomarker-positive people without symptoms at risk.','dx'],
+['IWG','International Working Group. Its 2024 recommendation treats Alzheimer\'s as a clinical-biological construct and calls most biomarker-positive people without symptoms at risk, not as having the disease.','dx'],
 ['LATE','Limbic-predominant age-related TDP-43 encephalopathy: a TDP-43 disease of older adults that causes an amnestic dementia resembling Alzheimer\'s.','ddx'],
 ['Lecanemab','An antibody that binds soluble Aβ protofibrils (brand name Leqembi). FDA traditional approval came on 6 July 2023 after the CLARITY AD trial.','antibody'],
 ['Logopenic variant PPA','A primary progressive aphasia with word-finding pauses and impaired sentence repetition. Its most common pathology is Alzheimer\'s disease.','ddx'],

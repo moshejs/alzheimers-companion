@@ -31,7 +31,7 @@ const CA_STEPS=[
  {from:.36,at:.44,t:'Tau and nerve-cell damage',
   dom:{k:'DIAN · −15 to −10 years',txt:'CSF tau rises and brain atrophy appears about 15 years before expected onset; glucose use on FDG-PET falls about 10 years before. In longitudinal data, metabolism declined about 7–10 years after amyloid, and the CSF tau timing differed from the cross-sectional estimate by more than 10 years. [[Bateman2012,McDade2018]]',
    pt:'Next, tau spreads and nerve cells start to struggle and shrink. Still no symptoms.'},
-  spo:{k:'Sporadic · tau and neurodegeneration',txt:'The 2013 update proposed that in sporadic Alzheimer\'s, tau may start on its own in limbic and brainstem regions, below detection, and that amyloid then speeds it up. Neurodegeneration follows: rising CSF tau, atrophy on MRI and falling FDG uptake, which track symptom severity. [[Jack2013,Jack2010]]',
+  spo:{k:'Sporadic · tau and neurodegeneration',txt:'The 2013 update proposed that in sporadic Alzheimer\'s, tau may start on its own in limbic and brainstem regions, and that amyloid then speeds it up. Neurodegeneration follows: rising CSF tau, atrophy on MRI and falling FDG uptake, which track symptom severity. [[Jack2013,Jack2010]]',
    pt:'Tau can be present early at low levels. Amyloid seems to make it spread faster.'}},
  {from:.5,at:.62,t:'Memory begins to slip',
   dom:{k:'DIAN · −10 to −5 years',txt:'Episodic memory impairment appears about 10 years before expected onset and global measures (MMSE, CDR) about 5 years before. In the Colombian PSEN1 E280A kindred, median ages were 44 for MCI and 49 for dementia. [[Bateman2012,AcostaBaena2011]]',
@@ -52,7 +52,7 @@ const CA_STEPS=[
    pt:'Only the lower chart holds measured numbers. The top curves are a sketch of the usual order.'}}];
 const CA_CLI=['gene carrier, tests normal','no symptoms','subtle decline','impaired, early','mild dementia','moderate dementia','severe dementia'];
 const CA_CLI_S=['gene, tests normal','no symptoms','subtle decline','impaired, early','mild dementia','moderate dementia','severe dementia'];
-const CA_PRE=[['No symptoms, amyloid only',1,0,1],['Gene carrier, tests normal',0,0,0],['Subtle decline, temporal tau',1,1,2],['MCI-like, amyloid only',1,0,3],['Mild dementia, high tau',1,4,4],['Memory problems, biomarkers normal',0,0,3]];
+const CA_PRE=[['No symptoms, amyloid only',1,0,1],['Gene carrier, tests normal',0,0,0],['Subtle decline, temporal tau',1,1,2],['MCI-like, amyloid only',1,0,3],['Mild dementia, high tau',1,3,4],['Memory problems, biomarkers normal',0,0,3]];
 inits.cascade=()=>{
   const svg=$('#caSvg'),rg=$('#caT');let dom=true,lastN='';
   function draw(t){
@@ -179,7 +179,8 @@ inits.cascade=()=>{
     else{k='Integrated stage '+ec+bio;t=ec<=1?'Biomarkers only, no symptoms':ec===2?'Subtle decline with biomarkers':'Symptoms with Alzheimer\'s biomarkers';
       aa=`Alzheimer\'s disease, integrated stage ${ec}${bio}. One abnormal Core 1 result is enough for the diagnosis. [[Jack2024]]`+(cli===0?' Stage 0 needs normal biomarkers, so with abnormal amyloid this person is clinical stage 1.':'');
       if(ec===1)aa+=` For unimpaired people, the hazard of progressing to dementia against A−T− was 1.5 for stage A, 5.6 for medial temporal tau and 39.9 for neocortical tau; this person\'s stage carries <b>${HR[bio]}</b>. The workgroup still recommends against diagnostic testing of unimpaired people outside research. [[Jack2024]]`;
-      iwg=ec<=1?'"At risk for Alzheimer\'s disease", not AD. Amyloid-only and most other biomarker-positive, cognitively normal people should be called at risk; "presymptomatic AD" is kept for specific patterns showing symptoms are near. [[Dubois2024]]'
+      iwg=ec<=1&&bio==='A'?'"At risk for Alzheimer\'s disease", not AD. Amyloid-only and most other biomarker-positive, cognitively normal people should be called at risk; "presymptomatic AD" is kept for specific patterns showing symptoms are near. [[Dubois2024]]'
+        :ec<=1?'Usually "at risk for Alzheimer\'s disease". The IWG keeps "presymptomatic AD" for specific biomarker patterns showing symptoms are near; the summary used here does not list which patterns qualify, so this person could fall under either label. [[Dubois2024]]'
         :ec===2?'Subtle decline sits at the border. The IWG summary used here does not say exactly how it would label this stage. [[Dubois2024]]'
         :'Symptoms plus Alzheimer\'s biomarkers fit the IWG\'s clinical-biological definition of Alzheimer\'s disease. [[Dubois2024]]';
       const exp={1:1,2:2,3:3,4:4,5:4,6:4}[ec];
