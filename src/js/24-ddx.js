@@ -105,7 +105,7 @@ inits.ddx=()=>{
   const toT=h=>lin?h/87600:Math.log10(Math.max(1,h))/DD_UY;
   const toU=v=>lin?Math.log10(Math.max(1,v*87600))/DD_UY:v;
   const setSteps=()=>DD_STEPS.forEach(s=>{s.from=toT(s.fh);s.at=toT(s.h)});setSteps();
-  const fmt=h=>h<24?`${Math.max(1,Math.round(h))} hour${Math.round(h)>1?'s':''}`:h<24*14?`${Math.round(h/24)} days`:h<24*61?`${Math.round(h/168)} weeks`:h<8760*1.5?`${Math.round(h/730)} months`:`${f1(h/8760)} years`;
+  const fmt=h=>h<24?`${Math.max(1,Math.round(h))} hour${Math.round(h)>1?'s':''}`:h<24*14?`${Math.round(h/24)} day${Math.round(h/24)>1?'s':''}`:h<24*61?`${Math.round(h/168)} weeks`:h<8760*1.5?`${Math.round(h/730)} months`:`${f1(h/8760)} years`;
   function draw(t){
     const N=vb(svg,'720 452','400 600');
     const L=N?{x0:14,x1:386,y0:28,rh:66,top:20,bot:58}:{x0:198,x1:704,y0:28,rh:48,top:8,bot:42};

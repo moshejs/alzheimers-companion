@@ -65,7 +65,7 @@ inits.amyloid=()=>{
     s+=`<rect x="${cx-6}" y="${ab1}" width="12" height="${f1(L.my+18-ab1)}" style="fill:var(--sage);opacity:${f1(1-rel)}"/>`;
     s+=`<path d="M${cx} ${f1(L.my+18+drop)} q12 18 -2 34 q-12 14 4 26" style="fill:none;stroke:var(--sage);stroke-width:6;stroke-linecap:round"/>`;
     if(rel>.3)s+=`<text x="${cx+16}" y="${f1(L.my+60+drop)}" class="t-xs">AICD</text>`;
-    if(away>.2&&rel<.1)s+=`<text x="${cx+18}" y="${L.my+4}" class="t-xs">${beta?'C99 stub':'C83 stub'}</text>`;
+    if(away>.2&&rel<.1)s+=`<text x="${cx+18}" y="${L.my+(N?-22:4)}" class="t-xs">${beta?'C99 stub':'C83 stub'}</text>`;
     // first secretase: scissors approach and cut
     const sc1x=lerp(cx-120,cx-12,ramp(t,.15,.24)), sc1y=beta?ab0:ab0+16;
     if(t>.12&&t<.5)s+=`<g transform="translate(${f1(sc1x)} ${f1(sc1y)})" style="opacity:${f1(ramp(t,.12,.16)*(1-ramp(t,.4,.5)))}"><rect x="-58" y="-14" width="52" height="28" rx="9" style="fill:var(--panel);stroke:${beta?'var(--rose)':'var(--sage)'};stroke-width:2"/><text x="-32" y="5" class="t-xs t-mid" style="fill:${beta?'var(--rose)':'var(--sage)'};font-weight:700">${beta?'BACE1':'ADAM10'}</text><path d="M-6 0 l10 -6 M-6 0 l10 6" style="stroke:var(--ink);stroke-width:2;stroke-linecap:round"/></g>`;
@@ -107,14 +107,14 @@ inits.amyloid=()=>{
   const MONO=Array.from({length:26},()=>({x:R(),y:R(),p:R()}));
   function drawAgg(t){
     const N=vb(ag,'720 320','400 560');
-    const L=N?{cols:[[200,70],[200,170],[200,270],[200,370],[200,470]],w:360}:{cols:[[70,150],[210,150],[350,150],[490,150],[630,150]],w:720};
+    const L=N?{cols:[[150,64],[150,174],[150,284],[150,394],[150,504]],w:360}:{cols:[[70,150],[210,150],[350,150],[490,150],[630,150]],w:720};
     let s=`<rect width="100%" height="100%" rx="12" style="fill:var(--field)"/>`;
     const stages=['monomers','oligomers','protofibrils','fibrils','plaque'];
     const prog=t*5;
     L.cols.forEach(([x,y],i)=>{const on=clamp(prog-i+.6),cur=Math.floor(clamp(prog,0,4.999))===i;
       s+=`<circle cx="${x}" cy="${y}" r="${N?44:52}" style="fill:${cur?'var(--amber-soft)':'var(--panel)'};stroke:${cur?'var(--amber)':'var(--line)'};stroke-width:${cur?2:1}"/>`;
-      s+=`<text x="${x}" y="${y+(N?60:72)}" class="t-sm t-mid" style="fill:${cur?'var(--ink)':'var(--muted)'}">${stages[i]}</text>`;
-      if(i<4){const [nx,ny]=L.cols[i+1];s+=N?`<path d="M${x} ${y+(N?46:54)+18} V${ny-(N?48:56)}" class="arrow" marker-end="url(#agA)" style="opacity:.5"/>`:`<path d="M${x+56} ${y} H${nx-58}" class="arrow" marker-end="url(#agA)" style="opacity:.5"/>`}
+      s+=`<text x="${N?x+54:x}" y="${y+(N?4:72)}" class="t-sm${N?'':' t-mid'}" style="fill:${cur?'var(--ink)':'var(--muted)'}">${stages[i]}</text>`;
+      if(i<4){const [nx,ny]=L.cols[i+1];s+=N?`<path d="M${x} ${y+48} V${ny-48}" class="arrow" marker-end="url(#agA)" style="opacity:.5"/>`:`<path d="M${x+56} ${y} H${nx-58}" class="arrow" marker-end="url(#agA)" style="opacity:.5"/>`}
       if(on<=0)return;
       const o=f1(on);
       if(i===0)MONO.slice(0,10).forEach(m=>{s+=`<circle cx="${f1(x-26+m.x*52)}" cy="${f1(y-26+m.y*52)}" r="3.4" style="fill:var(--amber);opacity:${o}"/>`});

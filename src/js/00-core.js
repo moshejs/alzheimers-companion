@@ -120,7 +120,7 @@ document.addEventListener('click',e=>{
 /* theme: auto → light → dark */
 (function theme(){
   const btn=$('#themeBtn');const modes=['auto','light','dark'];let m=store.get('theme','auto');
-  function apply(){if(m==='auto')document.documentElement.removeAttribute('data-theme');else document.documentElement.setAttribute('data-theme',m);btn.textContent='Theme: '+m}
+  function apply(){if(m==='auto')document.documentElement.removeAttribute('data-theme');else document.documentElement.setAttribute('data-theme',m);btn.textContent='Theme: '+{auto:'auto',light:'light',dark:'dark'}[m]}
   btn.addEventListener('click',()=>{m=modes[(modes.indexOf(m)+1)%3];store.set('theme',m);apply()});apply();
 })();
 /* language switch keeps the current module */

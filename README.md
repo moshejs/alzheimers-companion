@@ -2,7 +2,7 @@
 
 An animated, cited study and patient-education guide to **Alzheimer's disease**, the most common cause of dementia.
 
-**Live site:** https://moshejs.github.io/alzheimers-companion/
+**Live site:** https://moshejs.github.io/alzheimers-companion/ · **בעברית:** https://moshejs.github.io/alzheimers-companion/he/
 
 > **Not medical advice.** Alzheimer's Companion is an educational synthesis of the published literature, made for health-science students (including nursing), people living with the disease and family caregivers. It cannot diagnose anyone and nothing in it should change a treatment without your own clinician. Doses and guideline statements are quoted as published, not as instructions.
 
@@ -34,5 +34,15 @@ python3 build.py                     # writes ../index.html; fails on an unknown
 python3 smoke.py ../index.html all   # headless-Chrome check: no JS errors, no empty animations
 python3 make_artifact.py             # derives the Claude artifact copy
 ```
+
+### Hebrew version
+
+`src/he/` holds Hebrew copies of the parts, at the same paths. `python3 build.py --lang he` builds
+`he/index.html`: right to left, Hebrew fonts and metadata (`src/he/meta.html`, `src/he/rtl.css`),
+with the English part used for anything not yet translated (the build lists those). Drawings keep a
+left-to-right frame so time axes read the same in both languages.
+
+When an English part changes, change its Hebrew copy too, then run `python3 check_he.py`: it fails
+if a translation's code, element structure, citations or numbers differ from the English.
 
 `compile_sources.py` rebuilds `sources.json` from the research files; `source-corrections.json`, when present, is applied afterwards so validated fixes survive a regeneration.

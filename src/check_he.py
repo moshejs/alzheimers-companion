@@ -106,14 +106,18 @@ def html_split(src):
                 struct.append("<style>" + re.sub(r"\s+", " ", m.group(2)).strip())
         elif m.group(3):
             attrs = m.group(4)
-            struct.append("<" + m.group(3) + "".join(sorted(f" {a}={v}" for a, v in KEEP_ATTR.findall(attrs))) + ">")
+            kept = KEEP_ATTR.findall(attrs)
+            if ("id", '"langBtn"') in kept:  # the language link points the other way by design
+                kept = [(a, v) for a, v in kept if a != "href"]
+            struct.append("<" + m.group(3) + "".join(sorted(f" {a}={v}" for a, v in kept)) + ">")
             strs += [v for _, v in re.findall(r'\s(aria-label|title|placeholder|alt|content)="([^"]*)"', attrs)]
         elif m.group(5) and m.group(5).strip():
             strs.append(m.group(5))
     return "\n".join(struct), strs
 
 # ---------------------------------------------------------------- checks
-CITE = re.compile(r"\[\[\s*([^\]]+?)\s*\]\]")
+# same key pattern as build.py, so code like [['all','All']] is not a citation
+CITE = re.compile(r"\[\[(\s*(?=[A-Za-z0-9_\-]*[A-Za-z])[A-Za-z0-9][A-Za-z0-9_\-]*(?:\s*,\s*(?=[A-Za-z0-9_\-]*[A-Za-z])[A-Za-z0-9][A-Za-z0-9_\-]*)*\s*)\]\]")
 NUM = re.compile(r"(?<![\w#.])\d+(?:[.,]\d+)*")
 HEB = re.compile(r"[֐-׿]")
 ENGW = re.compile(r"\b[a-z]{3,}\b")
@@ -127,6 +131,9 @@ def nums(strs):
 def check(rel):
     en_p, he_p = SRC / rel, HE / rel
     en, he = en_p.read_text(encoding="utf-8"), he_p.read_text(encoding="utf-8")
+    # the crawler outline is generated per language, not translated line by line
+    ns = re.compile(r'<noscript id="nsOutline">.*?</noscript>', re.S)
+    en, he = ns.sub("", en), ns.sub("", he)
     split = js_split if rel.endswith(".js") else html_split
     try:
         (es, estr), (hs, hstr) = split(en), split(he)
