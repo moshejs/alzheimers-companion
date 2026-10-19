@@ -39,7 +39,7 @@
  {
   "key": "Abraham2022",
   "text": "Abraham J, Hirt J, Richter C, et al. Interventions for preventing and reducing the use of physical restraints of older people in general hospital settings. Cochrane Database Syst Rev. 2022;8:CD012476. PMID 36004796. doi:10.1002/14651858.CD012476.pub2.",
-  "link": "https://doi.org/10.1002/14651858.CD012476.pub2",
+  "link": "https://doi.org/10.1002/14651858.cd012476.pub2",
   "areas": [
    "H"
   ],
@@ -66,7 +66,7 @@
  {
   "key": "AcostaBaena2011",
   "text": "Acosta-Baena N, Sepulveda-Falla D, Lopera-Gómez CM, et al. Pre-dementia clinical stages in presenilin 1 E280A familial early-onset Alzheimer's disease: a retrospective cohort study. Lancet Neurol. 2011;10(3):213-220. PMID 21296022. doi:10.1016/S1474-4422(10)70323-9.",
-  "link": "https://doi.org/10.1016/S1474-4422(10",
+  "link": "https://doi.org/10.1016/s1474-4422(10)70323-9",
   "areas": [
    "C"
   ],
@@ -121,7 +121,7 @@
  {
   "key": "Alexopoulos1988",
   "text": "Alexopoulos GS, Abrams RC, Young RC, Shamoian CA. Cornell Scale for Depression in Dementia. Biol Psychiatry. 1988;23(3):271-284. PMID 3337862. doi:10.1016/0006-3223(88)90038-8.",
-  "link": "https://doi.org/10.1016/0006-3223(88",
+  "link": "https://doi.org/10.1016/0006-3223(88)90038-8",
   "areas": [
    "H"
   ],
@@ -158,7 +158,7 @@
  {
   "key": "Alves2023",
   "text": "Alves F, Kalinowski P, Ayton S. Accelerated Brain Volume Loss Caused by Anti-β-Amyloid Drugs: A Systematic Review and Meta-analysis. Neurology. 2023;100(20):e2114-e2124. PMID 36973044. doi:10.1212/WNL.0000000000207156.",
-  "link": "https://doi.org/10.1212/WNL.0000000000207156",
+  "link": "https://doi.org/10.1212/wnl.0000000000207156",
   "areas": [
    "F"
   ],
@@ -212,7 +212,7 @@
  {
   "key": "Andrieu2017",
   "text": "Andrieu S, Guyonnet S, Coley N, et al. Effect of long-term omega 3 polyunsaturated fatty acid supplementation with or without multidomain intervention on cognitive function in elderly adults with memory complaints (MAPT): a randomised, placebo-controlled trial. Lancet Neurol. 2017;16(5):377-389. PMID 28359749. doi:10.1016/S1474-4422(17)30040-6.",
-  "link": "https://doi.org/10.1016/S1474-4422(17",
+  "link": "https://doi.org/10.1016/s1474-4422(17)30040-6",
   "areas": [
    "G"
   ],
@@ -257,7 +257,7 @@
  {
   "key": "Arriagada1992",
   "text": "Arriagada PV, Growdon JH, Hedley-Whyte ET, Hyman BT. Neurofibrillary tangles but not senile plaques parallel duration and severity of Alzheimer's disease. Neurology. 1992;42(3 Pt 1):631-639. PMID 1549228. doi:10.1212/WNL.42.3.631.",
-  "link": "https://doi.org/10.1212/WNL.42.3.631",
+  "link": "https://doi.org/10.1212/wnl.42.3.631",
   "areas": [
    "B"
   ],
@@ -293,7 +293,7 @@
  {
   "key": "Ballard2009",
   "text": "Ballard C, Hanney ML, Theodoulou M, et al. The dementia antipsychotic withdrawal trial (DART-AD): long-term follow-up of a randomised placebo-controlled trial. Lancet Neurol. 2009;8(2):151-157. PMID 19138567. doi:10.1016/S1474-4422(08)70295-3.",
-  "link": "https://doi.org/10.1016/S1474-4422(08",
+  "link": "https://doi.org/10.1016/s1474-4422(08)70295-3",
   "areas": [
    "E",
    "H"
@@ -339,7 +339,7 @@
  {
   "key": "Barnes2023",
   "text": "Barnes LL, Dhana K, Liu X, et al. Trial of the MIND diet for prevention of cognitive decline in older persons. N Engl J Med. 2023;389(7):602-611. PMID 37466280. doi:10.1056/NEJMoa2302368.",
-  "link": "https://doi.org/10.1056/NEJMoa2302368",
+  "link": "https://doi.org/10.1056/nejmoa2302368",
   "areas": [
    "G"
   ],
@@ -368,7 +368,7 @@
  {
   "key": "Bateman2012",
   "text": "Bateman RJ, Xiong C, Benzinger TL, et al. Clinical and biomarker changes in dominantly inherited Alzheimer's disease. N Engl J Med. 2012;367(9):795-804. PMID 22784036. doi:10.1056/NEJMoa1202753.",
-  "link": "https://doi.org/10.1056/NEJMoa1202753",
+  "link": "https://doi.org/10.1056/nejmoa1202753",
   "areas": [
    "B",
    "C",
@@ -379,24 +379,29 @@
  {
   "key": "Bateman2023",
   "text": "Bateman RJ, Smith J, Donohue MC, et al. Two Phase 3 Trials of Gantenerumab in Early Alzheimer's Disease. N Engl J Med. 2023;389(20):1862-1876. PMID 37966285. doi:10.1056/NEJMoa2304430.",
-  "link": "https://doi.org/10.1056/NEJMoa2304430",
+  "link": "https://doi.org/10.1056/nejmoa2304430",
   "areas": [
    "F"
   ],
   "unverified": false
  },
  {
+  "key": "Bateman2025",
+  "text": "Bateman RJ, Li Y, McDade EM, et al. Safety and efficacy of long-term gantenerumab treatment in dominantly inherited Alzheimer's disease: an open-label extension of the phase 2/3 DIAN-TU trial. Lancet Neurol. 2025;24(4):316-330. PMID 40120616. doi:10.1016/S1474-4422(25)00024-9.",
+  "link": "https://doi.org/10.1016/s1474-4422(25)00024-9",
+  "areas": [
+   "I"
+  ],
+  "unverified": false
+ },
+ {
   "key": "Belder2024",
   "text": "Belder CRS, Boche D, Nicoll JAR, et al. Brain volume change following anti-amyloid β immunotherapy for Alzheimer's disease: amyloid-removal-related pseudo-atrophy. Lancet Neurol. 2024;23(10):1025-1034. PMID 39304242. doi:10.1016/S1474-4422(24)00335-1.",
-  "link": "https://doi.org/10.1016/S1474-4422(24",
+  "link": "https://doi.org/10.1016/s1474-4422(24)00335-1",
   "areas": [
-   "F",
-   "A"
+   "F"
   ],
-  "unverified": false,
-  "aliases": [
-   "GBD2021Nervous"
-  ]
+  "unverified": false
  },
  {
   "key": "Belle2006",
@@ -491,7 +496,7 @@
  {
   "key": "Birks2006",
   "text": "Birks J. Cholinesterase inhibitors for Alzheimer's disease. Cochrane Database Syst Rev. 2006;(1):CD005593. PMID 16437532. doi:10.1002/14651858.CD005593.",
-  "link": "https://doi.org/10.1002/14651858.CD005593",
+  "link": "https://doi.org/10.1002/14651858.cd005593",
   "areas": [
    "E"
   ],
@@ -500,7 +505,7 @@
  {
   "key": "Birks2015",
   "text": "Birks JS, Chong LY, Grimley Evans J. Rivastigmine for Alzheimer's disease. Cochrane Database Syst Rev. 2015;(9):CD001191. PMID 26393402. doi:10.1002/14651858.CD001191.pub4.",
-  "link": "https://doi.org/10.1002/14651858.CD001191.pub4",
+  "link": "https://doi.org/10.1002/14651858.cd001191.pub4",
   "areas": [
    "E"
   ],
@@ -509,7 +514,7 @@
  {
   "key": "Birks2018",
   "text": "Birks JS, Harvey RJ. Donepezil for dementia due to Alzheimer's disease. Cochrane Database Syst Rev. 2018;6:CD001190. PMID 29923184. doi:10.1002/14651858.CD001190.pub3.",
-  "link": "https://doi.org/10.1002/14651858.CD001190.pub3",
+  "link": "https://doi.org/10.1002/14651858.cd001190.pub3",
   "areas": [
    "E"
   ],
@@ -527,7 +532,7 @@
  {
   "key": "Borson2000",
   "text": "Borson S, Scanlan J, Brush M, Vitaliano P, Dokmak A. The Mini-Cog: a cognitive \"vital signs\" measure for dementia screening in multi-lingual elderly. Int J Geriatr Psychiatry. 2000;15(11):1021-1027. PMID 11113982. doi:10.1002/1099-1166(200011)15:11<1021::aid-gps234>3.0.co;2-6. (abstract)",
-  "link": "https://doi.org/10.1002/1099-1166(200011",
+  "link": "https://doi.org/10.1002/1099-1166(200011)15:11<1021::aid-gps234>3.0.co",
   "areas": [
    "D",
    "H"
@@ -537,7 +542,7 @@
  {
   "key": "Boustani2008",
   "text": "Boustani M, Campbell N, Munger S, Maidment I, Fox C. Impact of anticholinergics on the aging brain: a review and practical application. Aging Health. 2008;4(3):311-320. doi:10.2217/1745509X.4.3.311. (verified via Crossref; text not read)",
-  "link": "https://doi.org/10.2217/1745509X.4.3.311",
+  "link": "https://doi.org/10.2217/1745509x.4.3.311",
   "areas": [
    "H"
   ],
@@ -555,7 +560,7 @@
  {
   "key": "Braak1991",
   "text": "Braak H, Braak E. Neuropathological stageing of Alzheimer-related changes. Acta Neuropathol. 1991;82(4):239-259. PMID 1759558. doi:10.1007/BF00308809.",
-  "link": "https://doi.org/10.1007/BF00308809",
+  "link": "https://doi.org/10.1007/bf00308809",
   "areas": [
    "B"
   ],
@@ -609,7 +614,7 @@
  {
   "key": "Cao2022",
   "text": "Cao Y, Liu C, Lin J, et al. Oral care measures for preventing nursing home-acquired pneumonia. Cochrane Database Syst Rev. 2022;11:CD012416. PMID 36383760. doi:10.1002/14651858.CD012416.pub3.",
-  "link": "https://doi.org/10.1002/14651858.CD012416.pub3",
+  "link": "https://doi.org/10.1002/14651858.cd012416.pub3",
   "areas": [
    "H"
   ],
@@ -646,7 +651,7 @@
  {
   "key": "Chao2008",
   "text": "Chao S, Roberts JS, Marteau TM, et al. Health behavior changes after genetic risk assessment for Alzheimer disease: the REVEAL Study. Alzheimer Dis Assoc Disord. 2008;22(1):94-97. PMID 18317253. doi:10.1097/WAD.0b013e31815a9dcc.",
-  "link": "https://doi.org/10.1097/WAD.0b013e31815a9dcc",
+  "link": "https://doi.org/10.1097/wad.0b013e31815a9dcc",
   "areas": [
    "C"
   ],
@@ -682,15 +687,11 @@
  {
   "key": "Chenoweth2009",
   "text": "Chenoweth L, King MT, Jeon YH, et al. Caring for Aged Dementia Care Resident Study (CADRES) of person-centred care, dementia-care mapping, and usual care in dementia: a cluster-randomised trial. Lancet Neurol. 2009;8(4):317-325. PMID 19282246. doi:10.1016/S1474-4422(09)70045-6.",
-  "link": "https://doi.org/10.1016/S1474-4422(09",
+  "link": "https://doi.org/10.1016/s1474-4422(09)70045-6",
   "areas": [
-   "H",
-   "D"
+   "H"
   ],
-  "unverified": false,
-  "aliases": [
-   "Jack2010"
-  ]
+  "unverified": false
  },
  {
   "key": "Chowdhary2021",
@@ -713,14 +714,11 @@
  {
   "key": "Clark2012",
   "text": "Clark CM, Pontecorvo MJ, Beach TG, et al. Cerebral PET with florbetapir compared with neuropathology at autopsy for detection of neuritic amyloid-beta plaques: a prospective cohort study. Lancet Neurol. 2012;11(8):669-678. PMID 22749065. doi:10.1016/S1474-4422(12)70142-4. (abstract)",
-  "link": "https://doi.org/10.1016/S1474-4422(12",
+  "link": "https://doi.org/10.1016/s1474-4422(12)70142-4",
   "areas": [
    "D"
   ],
-  "unverified": false,
-  "aliases": [
-   "Jack2013"
-  ]
+  "unverified": false
  },
  {
   "key": "Clavaguera2009",
@@ -779,7 +777,7 @@
  {
   "key": "Cogswell2022",
   "text": "Cogswell PM, Barakos JA, Barkhof F, et al. Amyloid-Related Imaging Abnormalities with Emerging Alzheimer Disease Therapeutics: Detection and Reporting Recommendations for Clinical Practice. AJNR Am J Neuroradiol. 2022;43(9):E19-E35. PMID 35953274. doi:10.3174/ajnr.A7586.",
-  "link": "https://doi.org/10.3174/ajnr.A7586",
+  "link": "https://doi.org/10.3174/ajnr.a7586",
   "areas": [
    "F"
   ],
@@ -797,7 +795,7 @@
  {
   "key": "CohenMansfield2012",
   "text": "Cohen-Mansfield J, Thein K, Marx MS, Dakheel-Ali M, Freedman L. Efficacy of nonpharmacologic interventions for agitation in advanced dementia: a randomized, placebo-controlled trial. J Clin Psychiatry. 2012;73(9):1255-1261. PMID 23059151. doi:10.4088/JCP.12m07918.",
-  "link": "https://doi.org/10.4088/JCP.12m07918",
+  "link": "https://doi.org/10.4088/jcp.12m07918",
   "areas": [
    "H"
   ],
@@ -853,7 +851,7 @@
  {
   "key": "Creavin2016",
   "text": "Creavin ST, Wisniewski S, Noel-Storr AH, et al. Mini-Mental State Examination (MMSE) for the detection of dementia in clinically unevaluated people aged 65 and over in community and primary care populations. Cochrane Database Syst Rev. 2016;(1):CD011145. PMID 26760674. doi:10.1002/14651858.CD011145.pub2. (abstract)",
-  "link": "https://doi.org/10.1002/14651858.CD011145.pub2",
+  "link": "https://doi.org/10.1002/14651858.cd011145.pub2",
   "areas": [
    "D"
   ],
@@ -953,7 +951,7 @@
  {
   "key": "Cummings2026Evoke",
   "text": "Cummings JL, Atri A, Sano M, et al. Efficacy and safety of oral semaglutide 14 mg (flexible dose) in early-stage symptomatic Alzheimer's disease (evoke and evoke+): two phase 3, randomised, placebo-controlled trials. Lancet. 2026;407(10544):2167-2179. PMID 41865758. doi:10.1016/S0140-6736(26)00459-9. (abstract read; topline date 24 November 2025 from Novo Nordisk release as reported by Alzheimer Europe)",
-  "link": "https://doi.org/10.1016/S0140-6736(26",
+  "link": "https://doi.org/10.1016/s0140-6736(26)00459-9",
   "areas": [
    "I"
   ],
@@ -980,7 +978,7 @@
  {
   "key": "Davies2021",
   "text": "Davies N, Barrado-Martín Y, Vickerstaff V, et al. Enteral tube feeding for people with severe dementia. Cochrane Database Syst Rev. 2021;8:CD013503. PMID 34387363. doi:10.1002/14651858.CD013503.pub2.",
-  "link": "https://doi.org/10.1002/14651858.CD013503.pub2",
+  "link": "https://doi.org/10.1002/14651858.cd013503.pub2",
   "areas": [
    "G"
   ],
@@ -989,7 +987,7 @@
  {
   "key": "DaviesMaloney1976",
   "text": "Davies P, Maloney AJ. Selective loss of central cholinergic neurons in Alzheimer's disease. Lancet. 1976;2(8000):1403. PMID 63862. doi:10.1016/S0140-6736(76)91936-X. (letter; title only)",
-  "link": "https://doi.org/10.1016/S0140-6736(76",
+  "link": "https://doi.org/10.1016/s0140-6736(76)91936-x",
   "areas": [
    "A"
   ],
@@ -1007,7 +1005,7 @@
  {
   "key": "DeMartino2017",
   "text": "DeMartino ES, Dudzinski DM, Doyle CK, et al. Who decides when a patient can't? Statutes on alternate decision makers. N Engl J Med. 2017;376(15):1478-1482. PMID 28402767. doi:10.1056/NEJMms1611497. (PMC5527273 read)",
-  "link": "https://doi.org/10.1056/NEJMms1611497",
+  "link": "https://doi.org/10.1056/nejmms1611497",
   "areas": [
    "H"
   ],
@@ -1043,7 +1041,7 @@
  {
   "key": "Devanand2012",
   "text": "Devanand DP, Mintzer J, Schultz SK, et al. Relapse risk after discontinuation of risperidone in Alzheimer's disease. N Engl J Med. 2012;367(16):1497-1507. PMID 23075176. doi:10.1056/NEJMoa1114058.",
-  "link": "https://doi.org/10.1056/NEJMoa1114058",
+  "link": "https://doi.org/10.1056/nejmoa1114058",
   "areas": [
    "E"
   ],
@@ -1061,7 +1059,7 @@
  {
   "key": "Devanand2026VALMCI",
   "text": "Devanand DP, Huey ED, Qian M, et al. Valacyclovir Treatment in Mild Cognitive Impairment: The VALMCI Randomized Clinical Trial. Alzheimer Dis Assoc Disord. 2026;40(2):69-76. PMID 42210804. doi:10.1097/WAD.0000000000000735.",
-  "link": "https://doi.org/10.1097/WAD.0000000000000735",
+  "link": "https://doi.org/10.1097/wad.0000000000000735",
   "areas": [
    "I"
   ],
@@ -1070,7 +1068,7 @@
  {
   "key": "Doody2013",
   "text": "Doody RS, Raman R, Farlow M, et al. A phase 3 trial of semagacestat for treatment of Alzheimer's disease. N Engl J Med. 2013;369(4):341-350. PMID 23883379. doi:10.1056/NEJMoa1210951.",
-  "link": "https://doi.org/10.1056/NEJMoa1210951",
+  "link": "https://doi.org/10.1056/nejmoa1210951",
   "areas": [
    "B",
    "I"
@@ -1089,7 +1087,7 @@
  {
   "key": "Dubinsky2000",
   "text": "Dubinsky RM, Stein AC, Lyons K. Practice parameter: risk of driving and Alzheimer's disease (an evidence-based review): report of the Quality Standards Subcommittee of the American Academy of Neurology. Neurology. 2000;54(12):2205-2211. PMID 10881240. doi:10.1212/WNL.54.12.2205. (Retired; superseded by Iverson2010.)",
-  "link": "https://doi.org/10.1212/WNL.54.12.2205",
+  "link": "https://doi.org/10.1212/wnl.54.12.2205",
   "areas": [
    "G"
   ],
@@ -1144,7 +1142,7 @@
  {
   "key": "Egan2018",
   "text": "Egan MF, Kost J, Tariot PN, et al. Randomized trial of verubecestat for mild-to-moderate Alzheimer's disease. N Engl J Med. 2018;378(18):1691-1703. PMID 29719179. doi:10.1056/NEJMoa1706441.",
-  "link": "https://doi.org/10.1056/NEJMoa1706441",
+  "link": "https://doi.org/10.1056/nejmoa1706441",
   "areas": [
    "B"
   ],
@@ -1153,7 +1151,7 @@
  {
   "key": "Egan2019",
   "text": "Egan MF, Kost J, Voss T, et al. Randomized Trial of Verubecestat for Prodromal Alzheimer's Disease. N Engl J Med. 2019;380(15):1408-1420. PMID 30970186. doi:10.1056/NEJMoa1812840.",
-  "link": "https://doi.org/10.1056/NEJMoa1812840",
+  "link": "https://doi.org/10.1056/nejmoa1812840",
   "areas": [
    "I"
   ],
@@ -1162,7 +1160,7 @@
  {
   "key": "Eggenberger2013",
   "text": "Eggenberger E, Heimerl K, Bennett MI. Communication skills training in dementia care: a systematic review of effectiveness, training content, and didactic methods in different care settings. Int Psychogeriatr. 2013;25(3):345-358. PMID 23116547. doi:10.1017/S1041610212001664.",
-  "link": "https://doi.org/10.1017/S1041610212001664",
+  "link": "https://doi.org/10.1017/s1041610212001664",
   "areas": [
    "H"
   ],
@@ -1632,7 +1630,7 @@
  {
   "key": "Folstein1975",
   "text": "Folstein MF, Folstein SE, McHugh PR. \"Mini-mental state\": a practical method for grading the cognitive state of patients for the clinician. J Psychiatr Res. 1975;12(3):189-198. PMID 1202204. doi:10.1016/0022-3956(75)90026-6. (citation only)",
-  "link": "https://doi.org/10.1016/0022-3956(75",
+  "link": "https://doi.org/10.1016/0022-3956(75)90026-6",
   "areas": [
    "A",
    "D"
@@ -1642,7 +1640,7 @@
  {
   "key": "Forbes2015",
   "text": "Forbes D, Forbes SC, Blake CM, Thiessen EJ, Forbes S. Exercise programs for people with dementia. Cochrane Database Syst Rev. 2015;(4):CD006489. PMID 25874613. doi:10.1002/14651858.CD006489.pub4.",
-  "link": "https://doi.org/10.1002/14651858.CD006489.pub4",
+  "link": "https://doi.org/10.1002/14651858.cd006489.pub4",
   "areas": [
    "G"
   ],
@@ -1660,7 +1658,7 @@
  {
   "key": "Fortea2020",
   "text": "Fortea J, Vilaplana E, Carmona-Iragui M, et al. Clinical and biomarker changes of Alzheimer's disease in adults with Down syndrome: a cross-sectional study. Lancet. 2020;395(10242):1988-1997. PMID 32593336. doi:10.1016/S0140-6736(20)30689-9.",
-  "link": "https://doi.org/10.1016/S0140-6736(20",
+  "link": "https://doi.org/10.1016/s0140-6736(20)30689-9",
   "areas": [
    "C"
   ],
@@ -1669,7 +1667,7 @@
  {
   "key": "Fortea2021",
   "text": "Fortea J, Zaman SH, Hartley S, Rafii MS, Head E, Carmona-Iragui M. Alzheimer's disease associated with Down syndrome: a genetic form of dementia. Lancet Neurol. 2021;20(11):930-942. PMID 34687637. doi:10.1016/S1474-4422(21)00245-3.",
-  "link": "https://doi.org/10.1016/S1474-4422(21",
+  "link": "https://doi.org/10.1016/s1474-4422(21)00245-3",
   "areas": [
    "C"
   ],
@@ -1687,7 +1685,7 @@
  {
   "key": "Fossey2006",
   "text": "Fossey J, Ballard C, Juszczak E, et al. Effect of enhanced psychosocial care on antipsychotic use in nursing home residents with severe dementia: cluster randomised trial. BMJ. 2006;332(7544):756-761. PMID 16543297. doi:10.1136/bmj.38782.575868.7C.",
-  "link": "https://doi.org/10.1136/bmj.38782.575868.7C",
+  "link": "https://doi.org/10.1136/bmj.38782.575868.7c",
   "areas": [
    "H"
   ],
@@ -1743,20 +1741,25 @@
  {
   "key": "Gauthier2016",
   "text": "Gauthier S, Feldman HH, Schneider LS, et al. Efficacy and safety of tau-aggregation inhibitor therapy in patients with mild or moderate Alzheimer's disease: a randomised, controlled, double-blind, parallel-arm, phase 3 trial. Lancet. 2016;388(10062):2873-2884. PMID 27863809. doi:10.1016/S0140-6736(16)31275-2.",
-  "link": "https://doi.org/10.1016/S0140-6736(16",
+  "link": "https://doi.org/10.1016/s0140-6736(16)31275-2",
   "areas": [
-   "I",
-   "G"
+   "I"
   ],
-  "unverified": false,
-  "aliases": [
-   "MollvanCharante2016"
-  ]
+  "unverified": false
  },
  {
   "key": "GBD2019Forecasting",
   "text": "GBD 2019 Dementia Forecasting Collaborators. Estimation of the global prevalence of dementia in 2019 and forecasted prevalence in 2050. Lancet Public Health. 2022;7(2):e105-e125. PMID 34998485. doi:10.1016/S2468-2667(21)00249-8. (abstract)",
-  "link": "https://doi.org/10.1016/S2468-2667(21",
+  "link": "https://doi.org/10.1016/s2468-2667(21)00249-8",
+  "areas": [
+   "A"
+  ],
+  "unverified": false
+ },
+ {
+  "key": "GBD2021Nervous",
+  "text": "GBD 2021 Nervous System Disorders Collaborators. Global, regional, and national burden of disorders affecting the nervous system, 1990-2021. Lancet Neurol. 2024;23(4):344-381. PMID 38493795. doi:10.1016/S1474-4422(24)00038-3. (abstract)",
+  "link": "https://doi.org/10.1016/s1474-4422(24)00038-3",
   "areas": [
    "A"
   ],
@@ -1801,7 +1804,7 @@
  {
   "key": "Glenner1984",
   "text": "Glenner GG, Wong CW. Alzheimer's disease: initial report of the purification and characterization of a novel cerebrovascular amyloid protein. Biochem Biophys Res Commun. 1984;120(3):885-890. PMID 6375662. doi:10.1016/S0006-291X(84)80190-4. (abstract)",
-  "link": "https://doi.org/10.1016/S0006-291X(84",
+  "link": "https://doi.org/10.1016/s0006-291x(84)80190-4",
   "areas": [
    "A"
   ],
@@ -1819,7 +1822,7 @@
  {
   "key": "Goedert1989",
   "text": "Goedert M, Spillantini MG, Jakes R, Rutherford D, Crowther RA. Multiple isoforms of human microtubule-associated protein tau: sequences and localization in neurofibrillary tangles of Alzheimer's disease. Neuron. 1989;3(4):519-526. PMID 2484340. doi:10.1016/0896-6273(89)90210-9.",
-  "link": "https://doi.org/10.1016/0896-6273(89",
+  "link": "https://doi.org/10.1016/0896-6273(89)90210-9",
   "areas": [
    "B"
   ],
@@ -1828,7 +1831,7 @@
  {
   "key": "Goldman2011",
   "text": "Goldman JS, Hahn SE, Catania JW, et al. Genetic counseling and testing for Alzheimer disease: joint practice guidelines of the American College of Medical Genetics and the National Society of Genetic Counselors. Genet Med. 2011;13(6):597-605. PMID 21577118. doi:10.1097/GIM.0b013e31821d69b8. (full text summarised via PMC)",
-  "link": "https://doi.org/10.1097/GIM.0b013e31821d69b8",
+  "link": "https://doi.org/10.1097/gim.0b013e31821d69b8",
   "areas": [
    "C"
   ],
@@ -1846,7 +1849,7 @@
  {
   "key": "GomezIsla1996",
   "text": "Gomez-Isla T, Price JL, McKeel DW, et al. Profound loss of layer II entorhinal cortex neurons occurs in very mild Alzheimer's disease. J Neurosci. 1996;16(14):4491-4500. PMID 8699259. doi:10.1523/JNEUROSCI.16-14-04491.1996.",
-  "link": "https://doi.org/10.1523/JNEUROSCI.16-14-04491.1996",
+  "link": "https://doi.org/10.1523/jneurosci.16-14-04491.1996",
   "areas": [
    "B"
   ],
@@ -1864,7 +1867,7 @@
  {
   "key": "GornoTempini2011",
   "text": "Gorno-Tempini ML, Hillis AE, Weintraub S, et al. Classification of primary progressive aphasia and its variants. Neurology. 2011;76(11):1006-1014. PMID 21325651. doi:10.1212/WNL.0b013e31821103e6. (abstract + PMC3059138 full-text summary)",
-  "link": "https://doi.org/10.1212/WNL.0b013e31821103e6",
+  "link": "https://doi.org/10.1212/wnl.0b013e31821103e6",
   "areas": [
    "D"
   ],
@@ -1873,15 +1876,11 @@
  {
   "key": "GraffRadford2021",
   "text": "Graff-Radford J, Yong KXX, Apostolova LG, et al. New insights into atypical Alzheimer's disease in the era of biomarkers. Lancet Neurol. 2021;20(3):222-234. PMID 33609479. doi:10.1016/S1474-4422(20)30440-3. (author manuscript full text, PMC8056394)",
-  "link": "https://doi.org/10.1016/S1474-4422(20",
+  "link": "https://doi.org/10.1016/s1474-4422(20)30440-3",
   "areas": [
-   "A",
-   "D"
+   "A"
   ],
-  "unverified": false,
-  "aliases": [
-   "Hermann2021"
-  ]
+  "unverified": false
  },
  {
   "key": "Gray2015",
@@ -1896,7 +1895,7 @@
  {
   "key": "Green2009",
   "text": "Green RC, Roberts JS, Cupples LA, et al. Disclosure of APOE genotype for risk of Alzheimer's disease. N Engl J Med. 2009;361(3):245-254. PMID 19605829. doi:10.1056/NEJMoa0809578.",
-  "link": "https://doi.org/10.1056/NEJMoa0809578",
+  "link": "https://doi.org/10.1056/nejmoa0809578",
   "areas": [
    "C"
   ],
@@ -1951,7 +1950,7 @@
  {
   "key": "Guerreiro2013",
   "text": "Guerreiro R, Wojtas A, Bras J, et al. TREM2 variants in Alzheimer's disease. N Engl J Med. 2013;368(2):117-127. PMID 23150934. doi:10.1056/NEJMoa1211851.",
-  "link": "https://doi.org/10.1056/NEJMoa1211851",
+  "link": "https://doi.org/10.1056/nejmoa1211851",
   "areas": [
    "B",
    "C"
@@ -2088,7 +2087,7 @@
  {
   "key": "Hebert2013",
   "text": "Hebert LE, Weuve J, Scherr PA, Evans DA. Alzheimer disease in the United States (2010-2050) estimated using the 2010 census. Neurology. 2013;80(19):1778-1783. PMID 23390181. doi:10.1212/WNL.0b013e31828726f5. (abstract)",
-  "link": "https://doi.org/10.1212/WNL.0b013e31828726f5",
+  "link": "https://doi.org/10.1212/wnl.0b013e31828726f5",
   "areas": [
    "A"
   ],
@@ -2100,6 +2099,15 @@
   "link": "https://doi.org/10.1001/jamaneurol.2021.2161",
   "areas": [
    "A"
+  ],
+  "unverified": false
+ },
+ {
+  "key": "Hermann2021",
+  "text": "Hermann P, Appleby B, Brandel JP, et al. Biomarkers and diagnostic guidelines for sporadic Creutzfeldt-Jakob disease. Lancet Neurol. 2021;20(3):235-246. PMID 33609480. doi:10.1016/S1474-4422(20)30477-4. (abstract only)",
+  "link": "https://doi.org/10.1016/s1474-4422(20)30477-4",
+  "areas": [
+   "D"
   ],
   "unverified": false
  },
@@ -2169,7 +2177,7 @@
  {
   "key": "Howard2012",
   "text": "Howard R, McShane R, Lindesay J, et al. Donepezil and memantine for moderate-to-severe Alzheimer's disease. N Engl J Med. 2012;366(10):893-903. PMID 22397651. doi:10.1056/NEJMoa1106668. (DOMINO; abstract only)",
-  "link": "https://doi.org/10.1056/NEJMoa1106668",
+  "link": "https://doi.org/10.1056/nejmoa1106668",
   "areas": [
    "E"
   ],
@@ -2178,7 +2186,7 @@
  {
   "key": "Howard2015",
   "text": "Howard R, McShane R, Lindesay J, et al. Nursing home placement in the Donepezil and Memantine in Moderate to Severe Alzheimer's Disease (DOMINO-AD) trial: secondary and post-hoc analyses. Lancet Neurol. 2015;14(12):1171-1181. PMID 26515660. doi:10.1016/S1474-4422(15)00258-6.",
-  "link": "https://doi.org/10.1016/S1474-4422(15",
+  "link": "https://doi.org/10.1016/s1474-4422(15)00258-6",
   "areas": [
    "E"
   ],
@@ -2260,7 +2268,7 @@
  {
   "key": "Iverson2010",
   "text": "Iverson DJ, Gronseth GS, Reger MA, et al. Practice parameter update: evaluation and management of driving risk in dementia: report of the Quality Standards Subcommittee of the American Academy of Neurology. Neurology. 2010;74(16):1316-1324. PMID 20385882. doi:10.1212/WNL.0b013e3181da3b0f.",
-  "link": "https://doi.org/10.1212/WNL.0b013e3181da3b0f",
+  "link": "https://doi.org/10.1212/wnl.0b013e3181da3b0f",
   "areas": [
    "G"
   ],
@@ -2269,7 +2277,7 @@
  {
   "key": "Iwatsubo1994",
   "text": "Iwatsubo T, Odaka A, Suzuki N, et al. Visualization of A beta 42(43) and A beta 40 in senile plaques with end-specific A beta monoclonals: evidence that an initially deposited species is A beta 42(43). Neuron. 1994;13(1):45-53. PMID 8043280. doi:10.1016/0896-6273(94)90458-8.",
-  "link": "https://doi.org/10.1016/0896-6273(94",
+  "link": "https://doi.org/10.1016/0896-6273(94)90458-8",
   "areas": [
    "B"
   ],
@@ -2281,6 +2289,24 @@
   "link": "https://doi.org/10.1111/j.1754-4505.2011.00190.x",
   "areas": [
    "H"
+  ],
+  "unverified": false
+ },
+ {
+  "key": "Jack2010",
+  "text": "Jack CR Jr, Knopman DS, Jagust WJ, et al. Hypothetical model of dynamic biomarkers of the Alzheimer's pathological cascade. Lancet Neurol. 2010;9(1):119-128. PMID 20083042. doi:10.1016/S1474-4422(09)70299-6. (abstract)",
+  "link": "https://doi.org/10.1016/s1474-4422(09)70299-6",
+  "areas": [
+   "D"
+  ],
+  "unverified": false
+ },
+ {
+  "key": "Jack2013",
+  "text": "Jack CR Jr, Knopman DS, Jagust WJ, et al. Tracking pathophysiological processes in Alzheimer's disease: an updated hypothetical model of dynamic biomarkers. Lancet Neurol. 2013;12(2):207-216. PMID 23332364. doi:10.1016/S1474-4422(12)70291-0. (abstract)",
+  "link": "https://doi.org/10.1016/s1474-4422(12)70291-0",
+  "areas": [
+   "D"
   ],
   "unverified": false
  },
@@ -2334,7 +2360,7 @@
  {
   "key": "Jin2024",
   "text": "Jin M, Noble JM. What's in It for Me? Contextualizing the Potential Clinical Impacts of Lecanemab, Donanemab, and Other Anti-β-amyloid Monoclonal Antibodies in Early Alzheimer's Disease. eNeuro. 2024;11(9):ENEURO.0088-24.2024. PMID 39332901. doi:10.1523/ENEURO.0088-24.2024.",
-  "link": "https://doi.org/10.1523/ENEURO.0088-24.2024",
+  "link": "https://doi.org/10.1523/eneuro.0088-24.2024",
   "areas": [
    "F"
   ],
@@ -2371,7 +2397,7 @@
  {
   "key": "Jonsson2013",
   "text": "Jonsson T, Stefansson H, Steinberg S, et al. Variant of TREM2 associated with the risk of Alzheimer's disease. N Engl J Med. 2013;368(2):107-116. PMID 23150908. doi:10.1056/NEJMoa1211103.",
-  "link": "https://doi.org/10.1056/NEJMoa1211103",
+  "link": "https://doi.org/10.1056/nejmoa1211103",
   "areas": [
    "B",
    "C"
@@ -2561,7 +2587,7 @@
  {
   "key": "Knopman2001",
   "text": "Knopman DS, DeKosky ST, Cummings JL, et al. Practice parameter: diagnosis of dementia (an evidence-based review). Report of the Quality Standards Subcommittee of the American Academy of Neurology. Neurology. 2001;56(9):1143-1153. PMID 11342678. doi:10.1212/WNL.56.9.1143. (abstract; an older guideline)",
-  "link": "https://doi.org/10.1212/WNL.56.9.1143",
+  "link": "https://doi.org/10.1212/wnl.56.9.1143",
   "areas": [
    "D"
   ],
@@ -2579,7 +2605,7 @@
  {
   "key": "Kopke1993",
   "text": "Kopke E, Tung YC, Shaikh S, et al. Microtubule-associated protein tau. Abnormal phosphorylation of a non-paired helical filament pool in Alzheimer disease. J Biol Chem. 1993;268(32):24374-24384. PMID 8226987. doi:10.1016/S0021-9258(20)80536-5.",
-  "link": "https://doi.org/10.1016/S0021-9258(20",
+  "link": "https://doi.org/10.1016/s0021-9258(20)80536-5",
   "areas": [
    "B"
   ],
@@ -2696,7 +2722,7 @@
  {
   "key": "Lane2006",
   "text": "Lane RM, Potkin SG, Enz A. Targeting acetylcholinesterase and butyrylcholinesterase in dementia. Int J Neuropsychopharmacol. 2006;9(1):101-124. PMID 16083515. doi:10.1017/S1461145705005833. (authors include rivastigmine-manufacturer staff)",
-  "link": "https://doi.org/10.1017/S1461145705005833",
+  "link": "https://doi.org/10.1017/s1461145705005833",
   "areas": [
    "E"
   ],
@@ -2723,7 +2749,7 @@
  {
   "key": "Lawton1969",
   "text": "Lawton MP, Brody EM. Assessment of older people: self-maintaining and instrumental activities of daily living. Gerontologist. 1969;9(3):179-186. PMID 5349366. doi:10.1093/geront/9.3_Part_1.179. (no abstract; domain count from secondary summaries)",
-  "link": "https://doi.org/10.1093/geront/9.3_Part_1.179",
+  "link": "https://doi.org/10.1093/geront/9.3_part_1.179",
   "areas": [
    "H"
   ],
@@ -2822,7 +2848,7 @@
  {
   "key": "Lin2023",
   "text": "Lin FR, Pike JR, Albert MS, et al. Hearing intervention versus health education control to reduce cognitive decline in older adults with hearing loss in the USA (ACHIEVE): a multicentre, randomised controlled trial. Lancet. 2023;402(10404):786-797. PMID 37478886. doi:10.1016/S0140-6736(23)01406-X.",
-  "link": "https://doi.org/10.1016/S0140-6736(23",
+  "link": "https://doi.org/10.1016/s0140-6736(23)01406-x",
   "areas": [
    "G"
   ],
@@ -2849,7 +2875,7 @@
  {
   "key": "Liu2023",
   "text": "Liu KY, Walsh S, Brayne C, et al. Evaluation of clinical benefits of treatments for Alzheimer's disease. Lancet Healthy Longev. 2023;4(11):e645-e651. PMID 37924845. doi:10.1016/S2666-7568(23)00193-9.",
-  "link": "https://doi.org/10.1016/S2666-7568(23",
+  "link": "https://doi.org/10.1016/s2666-7568(23)00193-9",
   "areas": [
    "F"
   ],
@@ -2894,7 +2920,7 @@
  {
   "key": "Livingston2024",
   "text": "Livingston G, Huntley J, Liu KY, et al. Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission. Lancet. 2024;404(10452):572-628. PMID 39096926. doi:10.1016/S0140-6736(24)01296-0. (Accepted manuscript read in full via UCL Discovery; PAFs from Figure 9, whole numbers.)",
-  "link": "https://doi.org/10.1016/S0140-6736(24",
+  "link": "https://doi.org/10.1016/s0140-6736(24)01296-0",
   "areas": [
    "G"
   ],
@@ -2939,7 +2965,7 @@
  {
   "key": "Loy2006",
   "text": "Loy C, Schneider L. Galantamine for Alzheimer's disease and mild cognitive impairment. Cochrane Database Syst Rev. 2006;(1):CD001747. PMID 16437436. doi:10.1002/14651858.CD001747.pub3.",
-  "link": "https://doi.org/10.1002/14651858.CD001747.pub3",
+  "link": "https://doi.org/10.1002/14651858.cd001747.pub3",
   "areas": [
    "E"
   ],
@@ -3003,7 +3029,7 @@
  {
   "key": "Maayan2014",
   "text": "Maayan N, Soares-Weiser K, Lee H. Respite care for people with dementia and their carers. Cochrane Database Syst Rev. 2014;(1):CD004396. PMID 24435941. doi:10.1002/14651858.CD004396.pub3.",
-  "link": "https://doi.org/10.1002/14651858.CD004396.pub3",
+  "link": "https://doi.org/10.1002/14651858.cd004396.pub3",
   "areas": [
    "G"
   ],
@@ -3048,7 +3074,7 @@
  {
   "key": "Maurer1997",
   "text": "Maurer K, Volk S, Gerbaldo H. Auguste D and Alzheimer's disease. Lancet. 1997;349(9064):1546-1549. PMID 9167474. doi:10.1016/S0140-6736(96)10203-8. (no abstract; admission date and 1995 rediscovery read via Alzforum)",
-  "link": "https://doi.org/10.1016/S0140-6736(96",
+  "link": "https://doi.org/10.1016/s0140-6736(96)10203-8",
   "areas": [
    "A"
   ],
@@ -3102,7 +3128,7 @@
  {
   "key": "McCleery2020",
   "text": "McCleery J, Sharpley AL. Pharmacotherapies for sleep disturbances in dementia. Cochrane Database Syst Rev. 2020;11:CD009178. PMID 33189083. doi:10.1002/14651858.CD009178.pub4.",
-  "link": "https://doi.org/10.1002/14651858.CD009178.pub4",
+  "link": "https://doi.org/10.1002/14651858.cd009178.pub4",
   "areas": [
    "E"
   ],
@@ -3111,7 +3137,7 @@
  {
   "key": "McDade2018",
   "text": "McDade E, Wang G, Gordon BA, et al. Longitudinal cognitive and biomarker changes in dominantly inherited Alzheimer disease. Neurology. 2018;91(14):e1295-e1306. PMID 30217935. doi:10.1212/WNL.0000000000006277.",
-  "link": "https://doi.org/10.1212/WNL.0000000000006277",
+  "link": "https://doi.org/10.1212/wnl.0000000000006277",
   "areas": [
    "C"
   ],
@@ -3120,7 +3146,7 @@
  {
   "key": "McKeith2017",
   "text": "McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: fourth consensus report of the DLB Consortium. Neurology. 2017;89(1):88-100. PMID 28592453. doi:10.1212/WNL.0000000000004058. (full text, PMC5496518; Table 1 is an image)",
-  "link": "https://doi.org/10.1212/WNL.0000000000004058",
+  "link": "https://doi.org/10.1212/wnl.0000000000004058",
   "areas": [
    "D"
   ],
@@ -3139,7 +3165,7 @@
  {
   "key": "McShane2019",
   "text": "McShane R, Westby MJ, Roberts E, et al. Memantine for dementia. Cochrane Database Syst Rev. 2019;3:CD003154. PMID 30891742. doi:10.1002/14651858.CD003154.pub6.",
-  "link": "https://doi.org/10.1002/14651858.CD003154.pub6",
+  "link": "https://doi.org/10.1002/14651858.cd003154.pub6",
   "areas": [
    "E"
   ],
@@ -3211,7 +3237,7 @@
  {
   "key": "Mintun2021",
   "text": "Mintun MA, Lo AC, Duggan Evans C, et al. Donanemab in Early Alzheimer's Disease. N Engl J Med. 2021;384(18):1691-1704. PMID 33720637. doi:10.1056/NEJMoa2100708.",
-  "link": "https://doi.org/10.1056/NEJMoa2100708",
+  "link": "https://doi.org/10.1056/nejmoa2100708",
   "areas": [
    "F"
   ],
@@ -3229,7 +3255,7 @@
  {
   "key": "Mitchell2009NEJM",
   "text": "Mitchell SL, Teno JM, Kiely DK, et al. The clinical course of advanced dementia. N Engl J Med. 2009;361(16):1529-1538. PMID 19828530. doi:10.1056/NEJMoa0902234. (abstract)",
-  "link": "https://doi.org/10.1056/NEJMoa0902234",
+  "link": "https://doi.org/10.1056/nejmoa0902234",
   "areas": [
    "A",
    "G",
@@ -3262,7 +3288,7 @@
  {
   "key": "Mohler2023",
   "text": "Möhler R, Richter T, Köpke S, Meyer G. Interventions for preventing and reducing the use of physical restraints for older people in all long-term care settings. Cochrane Database Syst Rev. 2023;7:CD007546. PMID 37500094. doi:10.1002/14651858.CD007546.pub3.",
-  "link": "https://doi.org/10.1002/14651858.CD007546.pub3",
+  "link": "https://doi.org/10.1002/14651858.cd007546.pub3",
   "areas": [
    "H"
   ],
@@ -3278,9 +3304,18 @@
   "unverified": false
  },
  {
+  "key": "MollvanCharante2016",
+  "text": "Moll van Charante EP, Richard E, Eurelings LS, et al. Effectiveness of a 6-year multidomain vascular care intervention to prevent dementia (preDIVA): a cluster-randomised controlled trial. Lancet. 2016;388(10046):797-805. PMID 27474376. doi:10.1016/S0140-6736(16)30950-3.",
+  "link": "https://doi.org/10.1016/s0140-6736(16)30950-3",
+  "areas": [
+   "G"
+  ],
+  "unverified": false
+ },
+ {
   "key": "MonizCook2012",
   "text": "Moniz Cook ED, Swift K, James I, et al. Functional analysis-based interventions for challenging behaviour in dementia. Cochrane Database Syst Rev. 2012;(2):CD006929. PMID 22336826. doi:10.1002/14651858.CD006929.pub2.",
-  "link": "https://doi.org/10.1002/14651858.CD006929.pub2",
+  "link": "https://doi.org/10.1002/14651858.cd006929.pub2",
   "areas": [
    "H"
   ],
@@ -3289,7 +3324,7 @@
  {
   "key": "Monteiro2023",
   "text": "Monteiro C, Toth B, Brunstein F, et al. Randomized Phase II Study of the Safety and Efficacy of Semorinemab in Participants With Mild-to-Moderate Alzheimer Disease: Lauriet. Neurology. 2023;101(14):e1391-e1401. PMID 37643887. doi:10.1212/WNL.0000000000207663.",
-  "link": "https://doi.org/10.1212/WNL.0000000000207663",
+  "link": "https://doi.org/10.1212/wnl.0000000000207663",
   "areas": [
    "I"
   ],
@@ -3317,7 +3352,7 @@
  {
   "key": "Morris1993",
   "text": "Morris JC. The Clinical Dementia Rating (CDR): current version and scoring rules. Neurology. 1993;43(11):2412-2414. PMID 8232972. doi:10.1212/WNL.43.11.2412-a. (no abstract; domain list confirmed on the Knight ADRC CDR page)",
-  "link": "https://doi.org/10.1212/WNL.43.11.2412-a",
+  "link": "https://doi.org/10.1212/wnl.43.11.2412-a",
   "areas": [
    "A"
   ],
@@ -3326,7 +3361,7 @@
  {
   "key": "MorrisonSiu2000",
   "text": "Morrison RS, Siu AL. A comparison of pain and its treatment in advanced dementia and cognitively intact patients with hip fracture. J Pain Symptom Manage. 2000;19(4):240-248. PMID 10799790. doi:10.1016/s0885-3924(00)00113-5.",
-  "link": "https://doi.org/10.1016/s0885-3924(00",
+  "link": "https://doi.org/10.1016/s0885-3924(00)00113-5",
   "areas": [
    "H"
   ],
@@ -3390,7 +3425,7 @@
  {
   "key": "Neal2003",
   "text": "Neal M, Barton Wright P. Validation therapy for dementia. Cochrane Database Syst Rev. 2003;(3):CD001394. PMID 12917907. doi:10.1002/14651858.CD001394.",
-  "link": "https://doi.org/10.1002/14651858.CD001394",
+  "link": "https://doi.org/10.1002/14651858.cd001394",
   "areas": [
    "H"
   ],
@@ -3399,7 +3434,7 @@
  {
   "key": "Nelson2012",
   "text": "Nelson PT, Alafuzoff I, Bigio EH, et al. Correlation of Alzheimer disease neuropathologic changes with cognitive status: a review of the literature. J Neuropathol Exp Neurol. 2012;71(5):362-381. PMID 22487856. doi:10.1097/NEN.0b013e31825018f7.",
-  "link": "https://doi.org/10.1097/NEN.0b013e31825018f7",
+  "link": "https://doi.org/10.1097/nen.0b013e31825018f7",
   "areas": [
    "B"
   ],
@@ -3427,7 +3462,7 @@
  {
   "key": "Newman2011",
   "text": "Newman JC, Feldman R. Copyright and open access at the bedside. N Engl J Med. 2011;365(26):2447-2449. PMID 22204721. doi:10.1056/NEJMp1110652. (text read via a mailing-list repost; NEJM page not accessed)",
-  "link": "https://doi.org/10.1056/NEJMp1110652",
+  "link": "https://doi.org/10.1056/nejmp1110652",
   "areas": [
    "D"
   ],
@@ -3436,15 +3471,11 @@
  {
   "key": "Ngandu2015",
   "text": "Ngandu T, Lehtisalo J, Solomon A, et al. A 2 year multidomain intervention of diet, exercise, cognitive training, and vascular risk monitoring versus control to prevent cognitive decline in at-risk elderly people (FINGER): a randomised controlled trial. Lancet. 2015;385(9984):2255-2263. PMID 25771249. doi:10.1016/S0140-6736(15)60461-5.",
-  "link": "https://doi.org/10.1016/S0140-6736(15",
+  "link": "https://doi.org/10.1016/s0140-6736(15)60461-5",
   "areas": [
-   "G",
-   "D"
+   "G"
   ],
-  "unverified": false,
-  "aliases": [
-   "OBrien2015"
-  ]
+  "unverified": false
  },
  {
   "key": "NICE2014SC1",
@@ -3505,6 +3536,15 @@
   "unverified": false
  },
  {
+  "key": "OBrien2015",
+  "text": "O'Brien JT, Thomas A. Vascular dementia. Lancet. 2015;386(10004):1698-1706. PMID 26595643. doi:10.1016/S0140-6736(15)00463-8. (abstract)",
+  "link": "https://doi.org/10.1016/s0140-6736(15)00463-8",
+  "areas": [
+   "D"
+  ],
+  "unverified": false
+ },
+ {
   "key": "OBryant2008",
   "text": "O'Bryant SE, Waring SC, Cullum CM, et al. Staging dementia using Clinical Dementia Rating Scale Sum of Boxes scores. Arch Neurol. 2008;65(8):1091-1095. PMID 18695059. doi:10.1001/archneur.65.8.1091. (abstract)",
   "link": "https://doi.org/10.1001/archneur.65.8.1091",
@@ -3525,7 +3565,7 @@
  {
   "key": "Olsson2016",
   "text": "Olsson B, Lautner R, Andreasson U, et al. CSF and blood biomarkers for the diagnosis of Alzheimer's disease: a systematic review and meta-analysis. Lancet Neurol. 2016;15(7):673-684. PMID 27068280. doi:10.1016/S1474-4422(16)00070-3. (abstract)",
-  "link": "https://doi.org/10.1016/S1474-4422(16",
+  "link": "https://doi.org/10.1016/s1474-4422(16)00070-3",
   "areas": [
    "D"
   ],
@@ -3611,7 +3651,7 @@
  {
   "key": "Parsons1999",
   "text": "Parsons CG, Danysz W, Quack G. Memantine is a clinically well tolerated N-methyl-D-aspartate (NMDA) receptor antagonist: a review of preclinical data. Neuropharmacology. 1999;38(6):735-767. PMID 10465680. doi:10.1016/S0028-3908(99)00019-2. (authors from memantine developer Merz)",
-  "link": "https://doi.org/10.1016/S0028-3908(99",
+  "link": "https://doi.org/10.1016/s0028-3908(99)00019-2",
   "areas": [
    "E"
   ],
@@ -3620,7 +3660,7 @@
  {
   "key": "Parsons2021",
   "text": "Parsons C, Lim WY, Loy C, et al. Withdrawal or continuation of cholinesterase inhibitors or memantine or both, in people with dementia. Cochrane Database Syst Rev. 2021;2:CD009081. PMID 35608903. doi:10.1002/14651858.CD009081.pub2.",
-  "link": "https://doi.org/10.1002/14651858.CD009081.pub2",
+  "link": "https://doi.org/10.1002/14651858.cd009081.pub2",
   "areas": [
    "E"
   ],
@@ -3638,7 +3678,7 @@
  {
   "key": "Perneczky2006",
   "text": "Perneczky R, Wagenpfeil S, Komossa K, et al. Mapping scores onto stages: mini-mental state examination and clinical dementia rating. Am J Geriatr Psychiatry. 2006;14(2):139-144. PMID 16473978. doi:10.1097/01.JGP.0000192478.82189.a8. (abstract)",
-  "link": "https://doi.org/10.1097/01.JGP.0000192478.82189.a8",
+  "link": "https://doi.org/10.1097/01.jgp.0000192478.82189.a8",
   "areas": [
    "A"
   ],
@@ -3656,7 +3696,7 @@
  {
   "key": "Petersen2018",
   "text": "Petersen RC, Lopez O, Armstrong MJ, et al. Practice guideline update summary: mild cognitive impairment. Neurology. 2018;90(3):126-135. PMID 29282327. doi:10.1212/WNL.0000000000004826. (abstract; Europe PMC now labels this guideline \"RETIRED\")",
-  "link": "https://doi.org/10.1212/WNL.0000000000004826",
+  "link": "https://doi.org/10.1212/wnl.0000000000004826",
   "areas": [
    "A"
   ],
@@ -3683,7 +3723,7 @@
  {
   "key": "Pittock2023",
   "text": "Pittock RR, Aakre JA, Castillo AM, et al. Eligibility for Anti-Amyloid Treatment in a Population-Based Study of Cognitive Aging. Neurology. 2023;101(19):e1837-e1849. PMID 37586881. doi:10.1212/WNL.0000000000207770.",
-  "link": "https://doi.org/10.1212/WNL.0000000000207770",
+  "link": "https://doi.org/10.1212/wnl.0000000000207770",
   "areas": [
    "F",
    "I"
@@ -3712,6 +3752,15 @@
   "key": "Pomirchy2025",
   "text": "Pomirchy M, Bommer C, Pradella F, et al. Herpes zoster vaccination and dementia occurrence. JAMA. 2025;333(23):2083-2092. PMID 40267506. doi:10.1001/jama.2025.5013. (Australia natural experiment.)",
   "link": "https://doi.org/10.1001/jama.2025.5013",
+  "areas": [
+   "G"
+  ],
+  "unverified": false
+ },
+ {
+  "key": "Pomirchy2026",
+  "text": "Pomirchy M, Chung S, Bommer C, Strobel S, Geldsetzer P. Herpes zoster vaccination and incident dementia in Canada: an analysis of natural experiments. Lancet Neurol. 2026;25(2):170-180. PMID 41579903. doi:10.1016/S1474-4422(25)00455-7.",
+  "link": "https://doi.org/10.1016/s1474-4422(25)00455-7",
   "areas": [
    "G"
   ],
@@ -3792,7 +3841,7 @@
  {
   "key": "Quiroz2024",
   "text": "Quiroz YT, Aguillon D, Aguirre-Acevedo DC, et al. APOE3 Christchurch heterozygosity and autosomal dominant Alzheimer's disease. N Engl J Med. 2024;390(23):2156-2164. PMID 38899694. doi:10.1056/NEJMoa2308583.",
-  "link": "https://doi.org/10.1056/NEJMoa2308583",
+  "link": "https://doi.org/10.1056/nejmoa2308583",
   "areas": [
    "C"
   ],
@@ -3883,7 +3932,7 @@
  {
   "key": "Reish2023",
   "text": "Reish NJ, Jamshidi P, Stamm B, et al. Multiple Cerebral Hemorrhages in a Patient Receiving Lecanemab and Treated with t-PA for Stroke. N Engl J Med. 2023;388(5):478-479. PMID 36599061. doi:10.1056/NEJMc2215148. (title/metadata only)",
-  "link": "https://doi.org/10.1056/NEJMc2215148",
+  "link": "https://doi.org/10.1056/nejmc2215148",
   "areas": [
    "F"
   ],
@@ -3928,7 +3977,7 @@
  {
   "key": "Roman1993",
   "text": "Roman GC, Tatemichi TK, Erkinjuntti T, et al. Vascular dementia: diagnostic criteria for research studies. Report of the NINDS-AIREN International Workshop. Neurology. 1993;43(2):250-260. PMID 8094895. doi:10.1212/WNL.43.2.250. (abstract)",
-  "link": "https://doi.org/10.1212/WNL.43.2.250",
+  "link": "https://doi.org/10.1212/wnl.43.2.250",
   "areas": [
    "D"
   ],
@@ -3973,7 +4022,7 @@
  {
   "key": "Ryman2014",
   "text": "Ryman DC, Acosta-Baena N, Aisen PS, et al. Symptom onset in autosomal dominant Alzheimer disease: a systematic review and meta-analysis. Neurology. 2014;83(3):253-260. PMID 24928124. doi:10.1212/WNL.0000000000000596. (abstract + full-text summary)",
-  "link": "https://doi.org/10.1212/WNL.0000000000000596",
+  "link": "https://doi.org/10.1212/wnl.0000000000000596",
   "areas": [
    "C"
   ],
@@ -4036,7 +4085,7 @@
  {
   "key": "Sampson2009Cochrane",
   "text": "Sampson EL, Candy B, Jones L. Enteral tube feeding for older people with advanced dementia. Cochrane Database Syst Rev. 2009;(2):CD007209. PMID 19370678. doi:10.1002/14651858.CD007209.pub2. (a 2021 update exists; not read)",
-  "link": "https://doi.org/10.1002/14651858.CD007209.pub2",
+  "link": "https://doi.org/10.1002/14651858.cd007209.pub2",
   "areas": [
    "H"
   ],
@@ -4045,7 +4094,7 @@
  {
   "key": "Satizabal2016",
   "text": "Satizabal CL, Beiser AS, Chouraki V, et al. Incidence of dementia over three decades in the Framingham Heart Study. N Engl J Med. 2016;374(6):523-532. PMID 26863354. doi:10.1056/NEJMoa1504327. (abstract)",
-  "link": "https://doi.org/10.1056/NEJMoa1504327",
+  "link": "https://doi.org/10.1056/nejmoa1504327",
   "areas": [
    "A",
    "G"
@@ -4074,7 +4123,7 @@
  {
   "key": "Schneider2006",
   "text": "Schneider LS, Tariot PN, Dagerman KS, et al.; CATIE-AD Study Group. Effectiveness of atypical antipsychotic drugs in patients with Alzheimer's disease. N Engl J Med. 2006;355(15):1525-1538. PMID 17035647. doi:10.1056/NEJMoa061240.",
-  "link": "https://doi.org/10.1056/NEJMoa061240",
+  "link": "https://doi.org/10.1056/nejmoa061240",
   "areas": [
    "E"
   ],
@@ -4102,7 +4151,7 @@
  {
   "key": "Sclan1992",
   "text": "Sclan SG, Reisberg B. Functional assessment staging (FAST) in Alzheimer's disease: reliability, validity, and ordinality. Int Psychogeriatr. 1992;4 Suppl 1:55-69. PMID 1504288. doi:10.1017/S1041610292001157. (abstract)",
-  "link": "https://doi.org/10.1017/S1041610292001157",
+  "link": "https://doi.org/10.1017/s1041610292001157",
   "areas": [
    "A"
   ],
@@ -4156,7 +4205,7 @@
  {
   "key": "Shulman2000",
   "text": "Shulman KI. Clock-drawing: is it the ideal cognitive screening test? Int J Geriatr Psychiatry. 2000;15(6):548-561. PMID 10861923. doi:10.1002/1099-1166(200006)15:6<548::aid-gps242>3.0.co;2-u. (abstract)",
-  "link": "https://doi.org/10.1002/1099-1166(200006",
+  "link": "https://doi.org/10.1002/1099-1166(200006)15:6<548::aid-gps242>3.0.co",
   "areas": [
    "D"
   ],
@@ -4174,7 +4223,7 @@
  {
   "key": "Siddiqi2016",
   "text": "Siddiqi N, Harrison JK, Clegg A, et al. Interventions for preventing delirium in hospitalised non-ICU patients. Cochrane Database Syst Rev. 2016;3:CD005563. PMID 26967259. doi:10.1002/14651858.CD005563.pub3.",
-  "link": "https://doi.org/10.1002/14651858.CD005563.pub3",
+  "link": "https://doi.org/10.1002/14651858.cd005563.pub3",
   "areas": [
    "H"
   ],
@@ -4213,7 +4262,7 @@
  {
   "key": "Smith2017",
   "text": "Smith AJ, Yao X, Dix JA, Jin BJ, Verkman AS. Test of the 'glymphatic' hypothesis demonstrates diffusive and aquaporin-4-independent solute transport in rodent brain parenchyma. eLife. 2017;6:e27679. PMID 28826498. doi:10.7554/eLife.27679.",
-  "link": "https://doi.org/10.7554/eLife.27679",
+  "link": "https://doi.org/10.7554/elife.27679",
   "areas": [
    "B"
   ],
@@ -4250,7 +4299,7 @@
  {
   "key": "Sperling2023",
   "text": "Sperling RA, Donohue MC, Raman R, et al. Trial of Solanezumab in Preclinical Alzheimer's Disease. N Engl J Med. 2023;389(12):1096-1107. PMID 37458272. doi:10.1056/NEJMoa2305032.",
-  "link": "https://doi.org/10.1056/NEJMoa2305032",
+  "link": "https://doi.org/10.1056/nejmoa2305032",
   "areas": [
    "F",
    "I"
@@ -4305,7 +4354,7 @@
  {
   "key": "Tariot2021",
   "text": "Tariot PN, Cummings JL, Soto-Martin ME, et al. Trial of pimavanserin in dementia-related psychosis. N Engl J Med. 2021;385(4):309-319. PMID 34289275. doi:10.1056/NEJMoa2034634. (HARMONY)",
-  "link": "https://doi.org/10.1056/NEJMoa2034634",
+  "link": "https://doi.org/10.1056/nejmoa2034634",
   "areas": [
    "E"
   ],
@@ -4323,17 +4372,12 @@
  {
   "key": "Tariot2026",
   "text": "Tariot PN, Lopera FS, Ríos-Romenets S, et al. Safety and efficacy of crenezumab in cognitively unimpaired carriers of the PSEN1 Glu280Ala mutation (API ADAD Colombia Trial): a phase 2, randomised, double-blind, placebo-controlled trial. Lancet Neurol. 2026;25(2):147-159. PMID 41579901. doi:10.1016/S1474-4422(25)00426-0.",
-  "link": "https://doi.org/10.1016/S1474-4422(25",
+  "link": "https://doi.org/10.1016/s1474-4422(25)00426-0",
   "areas": [
    "C",
-   "I",
-   "G"
+   "I"
   ],
-  "unverified": false,
-  "aliases": [
-   "Pomirchy2026",
-   "Bateman2025"
-  ]
+  "unverified": false
  },
  {
   "key": "TauRx2026",
@@ -4383,7 +4427,7 @@
  {
   "key": "Thal2002",
   "text": "Thal DR, Rub U, Orantes M, Braak H. Phases of A beta-deposition in the human brain and its relevance for the development of AD. Neurology. 2002;58(12):1791-1800. PMID 12084879. doi:10.1212/WNL.58.12.1791.",
-  "link": "https://doi.org/10.1212/WNL.58.12.1791",
+  "link": "https://doi.org/10.1212/wnl.58.12.1791",
   "areas": [
    "B"
   ],
@@ -4455,7 +4499,7 @@
  {
   "key": "vandenDungen2014",
   "text": "van den Dungen P, van Kuijk L, van Marwijk H, et al. Preferences regarding disclosure of a diagnosis of dementia: a systematic review. Int Psychogeriatr. 2014;26(10):1603-1618. PMID 24933479. doi:10.1017/S1041610214000969.",
-  "link": "https://doi.org/10.1017/S1041610214000969",
+  "link": "https://doi.org/10.1017/s1041610214000969",
   "areas": [
    "G"
   ],
@@ -4473,7 +4517,7 @@
  {
   "key": "vanderSteen2025",
   "text": "van der Steen JT, van der Wouden JC, Methley AM, et al. Music-based therapeutic interventions for people with dementia. Cochrane Database Syst Rev. 2025;3:CD003477. PMID 40049590. doi:10.1002/14651858.CD003477.pub5.",
-  "link": "https://doi.org/10.1002/14651858.CD003477.pub5",
+  "link": "https://doi.org/10.1002/14651858.cd003477.pub5",
   "areas": [
    "H"
   ],
@@ -4482,7 +4526,7 @@
  {
   "key": "vanDyck2023",
   "text": "van Dyck CH, Swanson CJ, Aisen P, et al. Lecanemab in early Alzheimer's disease. N Engl J Med. 2023;388(1):9-21. PMID 36449413. doi:10.1056/NEJMoa2212948. (cited for context only; not re-read here)",
-  "link": "https://doi.org/10.1056/NEJMoa2212948",
+  "link": "https://doi.org/10.1056/nejmoa2212948",
   "areas": [
    "A",
    "B",
@@ -4603,7 +4647,7 @@
  {
   "key": "Warden2003",
   "text": "Warden V, Hurley AC, Volicer L. Development and psychometric evaluation of the Pain Assessment in Advanced Dementia (PAINAD) scale. J Am Med Dir Assoc. 2003;4(1):9-15. PMID 12807591. doi:10.1097/01.JAM.0000043422.31640.F7.",
-  "link": "https://doi.org/10.1097/01.JAM.0000043422.31640.F7",
+  "link": "https://doi.org/10.1097/01.jam.0000043422.31640.f7",
   "areas": [
    "H"
   ],
@@ -4630,7 +4674,7 @@
  {
   "key": "West1994",
   "text": "West MJ, Coleman PD, Flood DG, Troncoso JC. Differences in the pattern of hippocampal neuronal loss in normal ageing and Alzheimer's disease. Lancet. 1994;344(8925):769-772. PMID 7916070. doi:10.1016/S0140-6736(94)92338-8.",
-  "link": "https://doi.org/10.1016/S0140-6736(94",
+  "link": "https://doi.org/10.1016/s0140-6736(94)92338-8",
   "areas": [
    "B"
   ],
@@ -4712,7 +4756,7 @@
  {
   "key": "Wolters2020",
   "text": "Wolters FJ, Chibnik LB, Waziry R, et al. Twenty-seven-year time trends in dementia incidence in Europe and the United States: the Alzheimer Cohorts Consortium. Neurology. 2020;95(5):e519-e531. PMID 32611641. doi:10.1212/WNL.0000000000010022.",
-  "link": "https://doi.org/10.1212/WNL.0000000000010022",
+  "link": "https://doi.org/10.1212/wnl.0000000000010022",
   "areas": [
    "G"
   ],
@@ -4721,7 +4765,7 @@
  {
   "key": "Woods2018",
   "text": "Woods B, O'Philbin L, Farrell EM, Spector AE, Orrell M. Reminiscence therapy for dementia. Cochrane Database Syst Rev. 2018;3:CD001120. PMID 29493789. doi:10.1002/14651858.CD001120.pub3.",
-  "link": "https://doi.org/10.1002/14651858.CD001120.pub3",
+  "link": "https://doi.org/10.1002/14651858.cd001120.pub3",
   "areas": [
    "H"
   ],
@@ -4730,7 +4774,7 @@
  {
   "key": "Woods2023",
   "text": "Woods B, Rai HK, Elliott E, Aguirre E, Orrell M, Spector A. Cognitive stimulation to improve cognitive functioning in people with dementia. Cochrane Database Syst Rev. 2023;1:CD005562. PMID 39804128. doi:10.1002/14651858.CD005562.pub3.",
-  "link": "https://doi.org/10.1002/14651858.CD005562.pub3",
+  "link": "https://doi.org/10.1002/14651858.cd005562.pub3",
   "areas": [
    "H"
   ],
@@ -4812,7 +4856,7 @@
  {
   "key": "Yon2017",
   "text": "Yon Y, Mikton CR, Gassoumis ZD, Wilber KH. Elder abuse prevalence in community settings: a systematic review and meta-analysis. Lancet Glob Health. 2017;5(2):e147-e156. PMID 28104184. doi:10.1016/S2214-109X(17)30006-2.",
-  "link": "https://doi.org/10.1016/S2214-109X(17",
+  "link": "https://doi.org/10.1016/s2214-109x(17)30006-2",
   "areas": [
    "H"
   ],
@@ -4839,7 +4883,7 @@
  {
   "key": "Young2015",
   "text": "Young J, Angevaren M, Rusted J, Tabet N. Aerobic exercise to improve cognitive function in older people without known cognitive impairment. Cochrane Database Syst Rev. 2015;(4):CD005381. PMID 25900537. doi:10.1002/14651858.CD005381.pub4.",
-  "link": "https://doi.org/10.1002/14651858.CD005381.pub4",
+  "link": "https://doi.org/10.1002/14651858.cd005381.pub4",
   "areas": [
    "G"
   ],

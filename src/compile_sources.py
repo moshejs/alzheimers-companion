@@ -15,12 +15,18 @@ rd = pathlib.Path(sys.argv[1])
 out = pathlib.Path(__file__).resolve().parent / "sources.json"
 line_re = re.compile(r"^\s*[-*]\s*(?:\*\*)?\[([A-Za-z0-9_\-]+)\](?:\*\*)?\s*[:\-–]?\s*(.+)$")
 
+DOI_RE = re.compile(r"(10\.\d{4,}/[^\s;,]+)", re.I)
+def clean_doi(d):
+    d = d.lower().rstrip(".")
+    # keep parentheses that belong to the DOI (Lancet DOIs contain them); drop an unbalanced trailing ")"
+    while d.endswith(")") and d.count(")") > d.count("("): d = d[:-1]
+    return d.rstrip(".")
 def ids(text):
     out = set()
     m = re.search(r"PMID[:\s]*(\d+)", text)
     if m: out.add("pmid" + m.group(1))
-    m = re.search(r"(10\.\d{4,}/[^\s;,)]+)", text, re.I)
-    if m: out.add("doi" + m.group(1).lower().rstrip("."))
+    m = DOI_RE.search(text)
+    if m: out.add("doi" + clean_doi(m.group(1)))
     m = re.search(r"\b(NCT\d{8})\b", text)
     if m and not out: out.add(m.group(1))
     parts = re.split(r"\.\s+", text)
@@ -28,8 +34,11 @@ def ids(text):
     return out
 def same(a, b):
     ia, ib = ids(a), ids(b)
-    ha = {x for x in ia if x.startswith(("pmid", "doi"))}; hb = {x for x in ib if x.startswith(("pmid", "doi"))}
-    if ha and hb: return bool(ha & hb)
+    pa = {x for x in ia if x.startswith("pmid")}; pb = {x for x in ib if x.startswith("pmid")}
+    if pa and pb: return bool(pa & pb)            # PMIDs are authoritative when both have one
+    da = {x for x in ia if x.startswith("doi")}; db = {x for x in ib if x.startswith("doi")}
+    if da and db: return bool(da & db)
+    if (pa or da) and (pb or db): return False     # both identified, by different schemes: do not guess
     ta = [x for x in ia if x.startswith("t") and len(x) > 35]; tb = [x for x in ib if x.startswith("t") and len(x) > 35]
     return bool(ta and tb and ta[0] == tb[0])
 def ident(text): return ids(text)
@@ -49,9 +58,9 @@ for f in sorted(rd.glob("[A-I]-*.md")):
         if not m: continue
         key, text = m.group(1), clean(m.group(2))
         url = re.search(r"https?://[^\s)]+", text)
-        doi = re.search(r"(10\.\d{4,}/[^\s;,)]+)", text)
+        doi = DOI_RE.search(text)
         pmid = re.search(r"PMID[:\s]*(\d+)", text)
-        link = url.group(0).rstrip(".") if url else (f"https://doi.org/{doi.group(1).rstrip('.')}" if doi else (f"https://pubmed.ncbi.nlm.nih.gov/{pmid.group(1)}/" if pmid else ""))
+        link = url.group(0).rstrip(".") if url else (f"https://doi.org/{clean_doi(doi.group(1))}" if doi else (f"https://pubmed.ncbi.nlm.nih.gov/{pmid.group(1)}/" if pmid else ""))
         rec = {"key": key, "text": text, "link": link, "areas": [area], "unverified": "unverified" in text.lower()}
         if key in srcs:
             if same(srcs[key]["text"], text):
