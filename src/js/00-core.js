@@ -123,6 +123,9 @@ document.addEventListener('click',e=>{
   function apply(){if(m==='auto')document.documentElement.removeAttribute('data-theme');else document.documentElement.setAttribute('data-theme',m);btn.textContent='Theme: '+m}
   btn.addEventListener('click',()=>{m=modes[(modes.indexOf(m)+1)%3];store.set('theme',m);apply()});apply();
 })();
+/* language switch keeps the current module */
+(function lang(){const a=$('#langBtn');if(!a)return;const base=a.getAttribute('href');
+  const upd=()=>a.setAttribute('href',base+location.hash);['pointerdown','focus','click','mouseenter'].forEach(e=>a.addEventListener(e,upd));upd()})();
 /* ---- narrow mode ----
    Phone stages are too small for the 720-wide layouts, so draw() asks NARROW()
    and lays its panels out in a tall column instead of a wide row. Modules that
