@@ -1,3 +1,5 @@
+> **This project has moved** to [moshejs/medical-companions](https://github.com/moshejs/medical-companions), and the site to https://moshejs.github.io/medical-companions/alzheimers/. The pages here now forward there; the history below is kept for reference.
+
 # Alzheimer's Companion
 
 An animated, cited study and patient-education guide to **Alzheimer's disease**, the most common cause of dementia.
